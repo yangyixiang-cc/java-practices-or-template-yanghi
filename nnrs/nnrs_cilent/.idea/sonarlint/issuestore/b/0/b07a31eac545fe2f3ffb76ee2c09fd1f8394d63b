@@ -1,0 +1,10 @@
+
+a
+java:S1192"KDefine a constant instead of duplicating this literal "resources/" 5 times.(þÕ˜¨
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ø¸ûúÿÿÿÿ
+g
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ÿèªÛùÿÿÿÿ
+g
+java:S20959"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(…œ©çüÿÿÿÿ
+K
+java:S1481L"0Remove this unused "chapterName" local variable.(“Øß€øÿÿÿÿ
