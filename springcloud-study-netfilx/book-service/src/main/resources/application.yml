@@ -1,0 +1,21 @@
+server:
+  port: 8883
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/cloudstudy?useSSL=false&serverTimezone=GMT&characterEncoding=UTF-8&allowPublicKeyRetrieval=true
+    username: root
+    password: yangyihi2001
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: bookservice
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml # mapper映射文件路径
+  type-aliases-package: com.yanghi.study.bean # 配置具体包下类具有默认别名
+
+eureka:
+  client:
+    # 跟上面一样，需要指向Eureka服务端地址，这样才能进行注册
+    service-url:
+      defaultZone: http://localhost:8801/eureka, http://localhost:8802/eureka

@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      # 名称，其实就是文件名称
+      name: borrowservice
+      # 配置服务器的地址
+      uri: http://localhost:8700
+      # 环境
+      profile: pord
+      # 分支
+      label: master
