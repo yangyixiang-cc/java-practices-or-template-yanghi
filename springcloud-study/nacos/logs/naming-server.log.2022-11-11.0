@@ -1,0 +1,84 @@
+2022-11-11 18:28:07,671 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-11-11 18:28:07,671 WARN Using naming.distro config to replace core.distro config
+
+2022-11-11 18:28:07,766 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-11-11 18:28:07,767 INFO listen for service meta change
+
+2022-11-11 18:28:10,671 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-11-11 18:28:10,671 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-11-11 18:28:10,671 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-11-11 18:28:10,671 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-11-11 18:28:11,861 INFO Load instance extension handler []
+
+2022-11-11 22:48:04,719 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-11-11 22:48:04,719 WARN Using naming.distro config to replace core.distro config
+
+2022-11-11 22:48:04,818 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-11-11 22:48:04,819 INFO listen for service meta change
+
+2022-11-11 22:48:07,562 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-11-11 22:48:07,562 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-11-11 22:48:07,563 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-11-11 22:48:07,563 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-11-11 22:48:08,208 INFO Load instance extension handler []
+
+2022-11-11 22:51:26,497 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-11-11 22:51:26,497 WARN Using naming.distro config to replace core.distro config
+
+2022-11-11 22:51:26,593 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-11-11 22:51:26,594 INFO listen for service meta change
+
+2022-11-11 22:51:47,401 INFO Client connection 2.0.0.1:53146#true connect
+
+2022-11-11 22:51:47,527 INFO Client connection 192.168.31.147:8500#true connect
+
+2022-11-11 22:51:47,528 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=0}, 192.168.31.147:8500#true
+
+2022-11-11 23:04:12,567 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=1}, 192.168.31.147:8500#true
+
+2022-11-11 23:04:30,131 INFO Client connection 2.0.0.1:53323#true connect
+
+2022-11-11 23:04:30,187 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=2}, 192.168.31.147:8500#true
+
+2022-11-11 23:04:41,609 INFO Client connection 2.0.0.1:53146#true disconnect, remove instances and subscribers
+
+2022-11-11 23:05:41,966 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=3}, 192.168.31.147:8500#true
+
+2022-11-11 23:06:00,754 INFO Client connection 2.0.0.1:59020#true connect
+
+2022-11-11 23:06:00,820 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=4}, 192.168.31.147:8500#true
+
+2022-11-11 23:06:11,648 INFO Client connection 2.0.0.1:53323#true disconnect, remove instances and subscribers
+
+2022-11-11 23:14:31,247 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=5}, 192.168.31.147:8500#true
+
+2022-11-11 23:14:45,978 INFO Client connection 2.0.0.1:59606#true connect
+
+2022-11-11 23:14:46,040 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=6}, 192.168.31.147:8500#true
+
+2022-11-11 23:15:06,909 INFO Client connection 2.0.0.1:59020#true disconnect, remove instances and subscribers
+
+2022-11-11 23:19:49,886 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=7}, 192.168.31.147:8500#true
+
+2022-11-11 23:20:07,572 INFO Client connection 2.0.0.1:54775#true connect
+
+2022-11-11 23:20:07,624 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=8}, 192.168.31.147:8500#true
+
+2022-11-11 23:20:22,062 INFO Client connection 2.0.0.1:59606#true disconnect, remove instances and subscribers
+
+2022-11-11 23:21:41,966 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=9}, 192.168.31.147:8500#true
+

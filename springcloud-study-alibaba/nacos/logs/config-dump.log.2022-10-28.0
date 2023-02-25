@@ -1,0 +1,24 @@
+2022-10-28 11:02:01,950 INFO [dump-task] add task. groupKey=userservice-dev.yml+DEFAULT_GROUP, taskKey=userservice-dev.yml+DEFAULT_GROUP++false+null
+
+2022-10-28 11:17:50,299 INFO [dump-task] add task. groupKey=userservice-dev.yml+DEFAULT_GROUP, taskKey=userservice-dev.yml+DEFAULT_GROUP++false+null
+
+2022-10-28 11:21:45,436 INFO [dump-task] add task. groupKey=userservice-dev.yml+DEFAULT_GROUP, taskKey=userservice-dev.yml+DEFAULT_GROUP++false+null
+
+2022-10-28 11:22:01,178 INFO [dump-task] add task. groupKey=userservice-dev.yml+DEFAULT_GROUP, taskKey=userservice-dev.yml+DEFAULT_GROUP++false+null
+
+2022-10-28 11:28:02,065 INFO [dump-task] add task. groupKey=userservice-dev.yml+DEFAULT_GROUP, taskKey=userservice-dev.yml+DEFAULT_GROUP++false+null
+
+2022-10-28 11:43:12,672 INFO [dump-task] add task. groupKey=userservice-dev.yml+DEFAULT_GROUP, taskKey=userservice-dev.yml+DEFAULT_GROUP++false+null
+
+2022-10-28 11:44:38,059 INFO [dump-task] add task. groupKey=userservice-dev.yml+DEFAULT_GROUP, taskKey=userservice-dev.yml+DEFAULT_GROUP++false+null
+
+2022-10-28 11:49:26,198 INFO [dump-task] add task. groupKey=userservice-dev.yml+DEFAULT_GROUP, taskKey=userservice-dev.yml+DEFAULT_GROUP++false+null
+
+2022-10-28 12:23:40,697 INFO [dump-task] add task. groupKey=userservice-dev.yml+DEFAULT_GROUP+9184d579-2274-4e20-8b01-e5834af2425a, taskKey=userservice-dev.yml+DEFAULT_GROUP+9184d579-2274-4e20-8b01-e5834af2425a+false+null
+
+2022-10-28 12:25:11,227 INFO [dump-task] add task. groupKey=userservice-dev.yml+DEFAULT_GROUP+9184d579-2274-4e20-8b01-e5834af2425a, taskKey=userservice-dev.yml+DEFAULT_GROUP+9184d579-2274-4e20-8b01-e5834af2425a+false+null
+
+2022-10-28 12:40:34,661 INFO [dump-all-ok] userservice-dev.yml+DEFAULT_GROUP, 1666928966185, length=422, md5=2118049e1f82f72efe4d718e8ee379d8
+
+2022-10-28 12:40:34,662 INFO [dump-all-ok] userservice-dev.yml+DEFAULT_GROUP, 1666931111224, length=423, md5=3717516155aa953f662d816bb2e6eedd
+

@@ -1,0 +1,15 @@
+spring:
+  application:
+    # 服务名称和配置文件保持一致
+    name: userservice
+  profiles:
+    # 环境也是和配置文件保持一致
+    active: dev
+  cloud:
+    nacos:
+      config:
+        # 配置文件后缀名
+        file-extension: yml
+        # 配置中心服务器地址，也就是Nacos地址
+        server-addr: localhost:8848
+        namespace: 9184d579-2274-4e20-8b01-e5834af2425a

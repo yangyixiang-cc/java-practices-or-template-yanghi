@@ -1,0 +1,1974 @@
+2022-10-27 14:49:59,601 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}
+
+2022-10-27 14:50:00,083 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 14:50:00,102 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:54117, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,54117,1800900746400
+
+2022-10-27 14:50:00,104 INFO send udp packet: 2.0.0.1,54117,1800900746400
+
+2022-10-27 14:50:00,125 INFO [PUSH-SUCC] 43ms, all delay time 616ms, SLA 524ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 14:55:41,490 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=1}
+
+2022-10-27 14:55:42,044 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 14:55:42,044 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:62560, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62560,2142860471000
+
+2022-10-27 14:55:42,044 INFO send udp packet: 2.0.0.1,62560,2142860471000
+
+2022-10-27 14:55:42,058 INFO [PUSH-SUCC] 14ms, all delay time 623ms, SLA 568ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 14:55:44,580 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}
+
+2022-10-27 14:55:45,136 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 14:55:45,136 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:62565, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62565,2145952953900
+
+2022-10-27 14:55:45,136 INFO send udp packet: 2.0.0.1,62565,2145952953900
+
+2022-10-27 14:55:45,160 INFO [PUSH-SUCC] 24ms, all delay time 628ms, SLA 580ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:11:10,816 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:11:10,817 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:62560, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62560,3071633104600
+
+2022-10-27 15:11:10,817 INFO send udp packet: 2.0.0.1,62560,3071633104600
+
+2022-10-27 15:11:10,820 INFO [PUSH-SUCC] 4ms, all delay time 535ms, SLA 535ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:11:31,010 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=3}
+
+2022-10-27 15:11:31,508 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:11:31,508 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:60969, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,60969,3092324275200
+
+2022-10-27 15:11:31,508 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:11:31,508 INFO send udp packet: 2.0.0.1,60969,3092324275200
+
+2022-10-27 15:11:31,509 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:62560, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62560,3092324603600
+
+2022-10-27 15:11:31,509 INFO send udp packet: 2.0.0.1,62560,3092324603600
+
+2022-10-27 15:11:31,521 INFO [PUSH-SUCC] 13ms, all delay time 565ms, SLA 511ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:11:41,517 INFO retry to push data, key: 2.0.0.1,62560,3092324603600
+
+2022-10-27 15:11:51,518 WARN max re-push times reached, retry times 2, key: 2.0.0.1,62560,3092324603600
+
+2022-10-27 15:11:51,518 ERROR [PUSH-FAIL] 20010ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=3}, reason=null, target=2.0.0.1
+
+2022-10-27 15:12:06,369 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:12:06,369 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:60969, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,60969,3127185643600
+
+2022-10-27 15:12:06,369 INFO send udp packet: 2.0.0.1,60969,3127185643600
+
+2022-10-27 15:12:06,371 INFO [PUSH-SUCC] 2ms, all delay time 513ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-10-27 15:12:06,700 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:12:06,700 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:60969, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,60969,3127516805000
+
+2022-10-27 15:12:06,700 INFO send udp packet: 2.0.0.1,60969,3127516805000
+
+2022-10-27 15:12:06,702 INFO [PUSH-SUCC] 2ms, all delay time 539ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-10-27 15:20:25,779 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:20:25,779 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:54117, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,54117,3626595982500
+
+2022-10-27 15:20:25,779 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:20:25,779 INFO send udp packet: 2.0.0.1,54117,3626595982500
+
+2022-10-27 15:20:25,780 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:60969, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,60969,3626596233400
+
+2022-10-27 15:20:25,780 INFO send udp packet: 2.0.0.1,60969,3626596233400
+
+2022-10-27 15:20:25,782 INFO [PUSH-SUCC] 3ms, all delay time 536ms, SLA 536ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:20:25,782 INFO [PUSH-SUCC] 3ms, all delay time 536ms, SLA 536ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:20:25,883 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:20:25,883 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:20:25,883 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:62565, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62565,3626699311400
+
+2022-10-27 15:20:25,883 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:60969, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,60969,3626699336100
+
+2022-10-27 15:20:25,883 INFO send udp packet: 2.0.0.1,62565,3626699311400
+
+2022-10-27 15:20:25,883 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:20:25,883 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:60969, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,60969,3626699848900
+
+2022-10-27 15:20:25,884 INFO send udp packet: 2.0.0.1,60969,3626699336100
+
+2022-10-27 15:20:25,884 INFO send udp packet: 2.0.0.1,60969,3626699848900
+
+2022-10-27 15:20:25,886 INFO [PUSH-SUCC] 3ms, all delay time 567ms, SLA 567ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:20:25,886 INFO [PUSH-SUCC] 3ms, all delay time 591ms, SLA 591ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:20:25,887 INFO [PUSH-SUCC] 4ms, all delay time 592ms, SLA 592ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:21:07,221 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=3}
+
+2022-10-27 15:21:07,745 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:21:07,745 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:49558, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49558,3668561597400
+
+2022-10-27 15:21:07,745 INFO send udp packet: 2.0.0.1,49558,3668561597400
+
+2022-10-27 15:21:07,760 INFO [PUSH-SUCC] 15ms, all delay time 607ms, SLA 539ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:21:10,223 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=3}
+
+2022-10-27 15:21:10,723 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:21:10,723 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:49563, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49563,3671540112500
+
+2022-10-27 15:21:10,723 INFO send udp packet: 2.0.0.1,49563,3671540112500
+
+2022-10-27 15:21:10,736 INFO [PUSH-SUCC] 13ms, all delay time 561ms, SLA 513ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:21:25,896 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=4}
+
+2022-10-27 15:21:26,358 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:21:26,360 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:51709, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,51709,3687174990100
+
+2022-10-27 15:21:26,360 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:21:26,360 INFO send udp packet: 2.0.0.1,51709,3687174990100
+
+2022-10-27 15:21:26,361 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:49558, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49558,3687177721700
+
+2022-10-27 15:21:26,361 INFO send udp packet: 2.0.0.1,49558,3687177721700
+
+2022-10-27 15:21:26,364 INFO [PUSH-SUCC] 4ms, all delay time 549ms, SLA 468ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=4}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 15:21:26,368 INFO [PUSH-SUCC] 10ms, all delay time 553ms, SLA 472ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=4}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 15:21:28,278 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=4}
+
+2022-10-27 15:21:28,784 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:21:28,784 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:51710, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,51710,3689601189900
+
+2022-10-27 15:21:28,784 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:21:28,784 INFO send udp packet: 2.0.0.1,51710,3689601189900
+
+2022-10-27 15:21:28,785 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:49563, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49563,3689601594800
+
+2022-10-27 15:21:28,785 INFO send udp packet: 2.0.0.1,49563,3689601594800
+
+2022-10-27 15:21:28,788 INFO [PUSH-SUCC] 4ms, all delay time 581ms, SLA 510ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=4}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 15:21:28,790 INFO [PUSH-SUCC] 6ms, all delay time 583ms, SLA 512ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=4}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 15:21:30,866 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=1}
+
+2022-10-27 15:21:31,312 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:21:31,312 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:51715, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,51715,3692128364300
+
+2022-10-27 15:21:31,312 INFO send udp packet: 2.0.0.1,51715,3692128364300
+
+2022-10-27 15:21:31,327 INFO [PUSH-SUCC] 14ms, all delay time 517ms, SLA 460ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:25:38,270 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=6}
+
+2022-10-27 15:25:38,352 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}
+
+2022-10-27 15:25:38,770 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:25:38,770 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:51709, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,51709,3939586648300
+
+2022-10-27 15:25:38,770 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:25:38,770 INFO send udp packet: 2.0.0.1,51709,3939586648300
+
+2022-10-27 15:25:38,770 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:49558, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49558,3939586998700
+
+2022-10-27 15:25:38,771 INFO send udp packet: 2.0.0.1,49558,3939586998700
+
+2022-10-27 15:25:38,774 INFO [PUSH-SUCC] 4ms, all delay time 601ms, SLA 504ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=6}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:25:38,774 INFO [PUSH-SUCC] 4ms, all delay time 601ms, SLA 504ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=6}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:25:38,881 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:25:38,881 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:25:38,881 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:51715, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,51715,3939697393900
+
+2022-10-27 15:25:38,881 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:51710, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,51710,3939697433600
+
+2022-10-27 15:25:38,881 INFO send udp packet: 2.0.0.1,51715,3939697393900
+
+2022-10-27 15:25:38,881 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:25:38,881 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:49563, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49563,3939698005400
+
+2022-10-27 15:25:38,882 INFO send udp packet: 2.0.0.1,51710,3939697433600
+
+2022-10-27 15:25:38,882 INFO send udp packet: 2.0.0.1,49563,3939698005400
+
+2022-10-27 15:25:38,885 INFO [PUSH-SUCC] 4ms, all delay time 516ms, SLA 516ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:25:38,885 INFO [PUSH-SUCC] 4ms, all delay time 554ms, SLA 533ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:25:38,885 INFO [PUSH-SUCC] 4ms, all delay time 554ms, SLA 533ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:25:56,062 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=7}
+
+2022-10-27 15:25:56,499 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:25:56,499 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:51710, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,51710,3957315343800
+
+2022-10-27 15:25:56,499 INFO send udp packet: 2.0.0.1,51710,3957315343800
+
+2022-10-27 15:25:56,499 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:25:56,499 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:50675, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,50675,3957315833700
+
+2022-10-27 15:25:56,499 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:25:56,499 INFO send udp packet: 2.0.0.1,50675,3957315833700
+
+2022-10-27 15:25:56,500 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:49563, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49563,3957316004100
+
+2022-10-27 15:25:56,500 INFO send udp packet: 2.0.0.1,49563,3957316004100
+
+2022-10-27 15:25:56,519 INFO [PUSH-SUCC] 20ms, all delay time 555ms, SLA 457ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:26:03,100 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=8}
+
+2022-10-27 15:26:03,497 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:26:03,498 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:51710, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,51710,3964313877100
+
+2022-10-27 15:26:03,498 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:26:03,498 INFO send udp packet: 2.0.0.1,51710,3964313877100
+
+2022-10-27 15:26:03,499 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:53349, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53349,3964314781900
+
+2022-10-27 15:26:03,499 INFO send udp packet: 2.0.0.1,53349,3964314781900
+
+2022-10-27 15:26:03,499 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:26:03,500 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:50675, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,50675,3964316192700
+
+2022-10-27 15:26:03,500 INFO send udp packet: 2.0.0.1,50675,3964316192700
+
+2022-10-27 15:26:03,500 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:26:03,501 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:49563, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49563,3964317008100
+
+2022-10-27 15:26:03,501 INFO send udp packet: 2.0.0.1,49563,3964317008100
+
+2022-10-27 15:26:03,509 INFO [PUSH-SUCC] 10ms, all delay time 570ms, SLA 408ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=8}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 15:26:03,509 INFO [PUSH-SUCC] 10ms, all delay time 571ms, SLA 409ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=8}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 15:26:06,513 INFO retry to push data, key: 2.0.0.1,51710,3957315343800
+
+2022-10-27 15:26:06,513 INFO retry to push data, key: 2.0.0.1,49563,3957316004100
+
+2022-10-27 15:26:09,182 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=7}
+
+2022-10-27 15:26:09,702 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:26:09,702 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:52075, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52075,3970519057600
+
+2022-10-27 15:26:09,702 INFO send udp packet: 2.0.0.1,52075,3970519057600
+
+2022-10-27 15:26:09,721 INFO [PUSH-SUCC] 19ms, all delay time 618ms, SLA 539ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:26:11,199 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=8}
+
+2022-10-27 15:26:11,680 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:26:11,680 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:52075, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52075,3972497198800
+
+2022-10-27 15:26:11,680 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:26:11,680 INFO send udp packet: 2.0.0.1,52075,3972497198800
+
+2022-10-27 15:26:11,681 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:52076, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52076,3972497555500
+
+2022-10-27 15:26:11,681 INFO send udp packet: 2.0.0.1,52076,3972497555500
+
+2022-10-27 15:26:11,687 INFO [PUSH-SUCC] 7ms, all delay time 561ms, SLA 488ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=8}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 15:26:11,688 INFO [PUSH-SUCC] 8ms, all delay time 562ms, SLA 489ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=8}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 15:26:13,514 INFO retry to push data, key: 2.0.0.1,51710,3964313877100
+
+2022-10-27 15:26:13,514 INFO retry to push data, key: 2.0.0.1,49563,3964317008100
+
+2022-10-27 15:26:14,318 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=3}
+
+2022-10-27 15:26:14,780 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:26:14,780 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:52081, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52081,3975596612300
+
+2022-10-27 15:26:14,780 INFO send udp packet: 2.0.0.1,52081,3975596612300
+
+2022-10-27 15:26:14,794 INFO [PUSH-SUCC] 14ms, all delay time 524ms, SLA 476ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:26:16,527 WARN max re-push times reached, retry times 2, key: 2.0.0.1,51710,3957315343800
+
+2022-10-27 15:26:16,527 ERROR [PUSH-FAIL] 20028ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=8}, reason=null, target=2.0.0.1
+
+2022-10-27 15:26:16,527 WARN max re-push times reached, retry times 2, key: 2.0.0.1,49563,3957316004100
+
+2022-10-27 15:26:16,527 ERROR [PUSH-FAIL] 20028ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=8}, reason=null, target=2.0.0.1
+
+2022-10-27 15:26:23,530 WARN max re-push times reached, retry times 2, key: 2.0.0.1,51710,3964313877100
+
+2022-10-27 15:26:23,530 ERROR [PUSH-FAIL] 20033ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=8}, reason=null, target=2.0.0.1
+
+2022-10-27 15:26:23,530 WARN max re-push times reached, retry times 2, key: 2.0.0.1,49563,3964317008100
+
+2022-10-27 15:26:23,530 ERROR [PUSH-FAIL] 20030ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=8}, reason=null, target=2.0.0.1
+
+2022-10-27 15:26:30,086 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:26:30,086 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:52081, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52081,3990903058800
+
+2022-10-27 15:26:30,086 INFO send udp packet: 2.0.0.1,52081,3990903058800
+
+2022-10-27 15:26:30,088 INFO [PUSH-SUCC] 2ms, all delay time 589ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=8}, originalSize=2, DataSize=2
+
+2022-10-27 15:26:30,304 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:26:30,304 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:52081, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52081,3991120371500
+
+2022-10-27 15:26:30,304 INFO send udp packet: 2.0.0.1,52081,3991120371500
+
+2022-10-27 15:26:30,307 INFO [PUSH-SUCC] 3ms, all delay time 590ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=8}, originalSize=2, DataSize=2
+
+2022-10-27 15:31:08,640 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=10}
+
+2022-10-27 15:31:08,695 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=10}
+
+2022-10-27 15:31:09,095 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:31:09,095 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:52075, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52075,4269912106000
+
+2022-10-27 15:31:09,095 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:31:09,095 INFO send udp packet: 2.0.0.1,52075,4269912106000
+
+2022-10-27 15:31:09,095 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:52081, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52081,4269912498800
+
+2022-10-27 15:31:09,095 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:31:09,096 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:52076, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52076,4269912894899
+
+2022-10-27 15:31:09,096 INFO send udp packet: 2.0.0.1,52081,4269912498800
+
+2022-10-27 15:31:09,099 INFO send udp packet: 2.0.0.1,52076,4269912894899
+
+2022-10-27 15:31:09,099 INFO [PUSH-SUCC] 4ms, all delay time 523ms, SLA 459ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=10}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:31:09,101 INFO [PUSH-SUCC] 6ms, all delay time 525ms, SLA 461ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=10}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:31:09,101 INFO [PUSH-SUCC] 6ms, all delay time 525ms, SLA 461ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=10}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:31:09,209 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:31:09,209 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:53349, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53349,4270025880500
+
+2022-10-27 15:31:09,209 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:31:09,209 INFO send udp packet: 2.0.0.1,53349,4270025880500
+
+2022-10-27 15:31:09,209 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:52081, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52081,4270026070799
+
+2022-10-27 15:31:09,209 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:31:09,210 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:50675, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,50675,4270026444200
+
+2022-10-27 15:31:09,210 INFO send udp packet: 2.0.0.1,52081,4270026070799
+
+2022-10-27 15:31:09,210 INFO send udp packet: 2.0.0.1,50675,4270026444200
+
+2022-10-27 15:31:09,212 INFO [PUSH-SUCC] 3ms, all delay time 537ms, SLA 517ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=10}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:31:09,212 INFO [PUSH-SUCC] 3ms, all delay time 537ms, SLA 517ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=10}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:31:09,213 INFO [PUSH-SUCC] 4ms, all delay time 538ms, SLA 518ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=10}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:31:09,314 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:31:09,314 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:52081, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52081,4270130923699
+
+2022-10-27 15:31:09,314 INFO send udp packet: 2.0.0.1,52081,4270130923699
+
+2022-10-27 15:31:09,316 INFO [PUSH-SUCC] 2ms, all delay time 590ms, SLA 590ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:31:22,448 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=11}
+
+2022-10-27 15:31:22,893 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:31:22,894 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:52075, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52075,4283710440600
+
+2022-10-27 15:31:22,894 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:31:22,894 INFO send udp packet: 2.0.0.1,52075,4283710440600
+
+2022-10-27 15:31:22,895 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:52081, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52081,4283710970100
+
+2022-10-27 15:31:22,895 INFO send udp packet: 2.0.0.1,52081,4283710970100
+
+2022-10-27 15:31:22,895 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:31:22,895 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:52076, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52076,4283712202599
+
+2022-10-27 15:31:22,895 INFO send udp packet: 2.0.0.1,52076,4283712202599
+
+2022-10-27 15:31:22,896 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:31:22,896 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:57777, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57777,4283712815600
+
+2022-10-27 15:31:22,896 INFO send udp packet: 2.0.0.1,57777,4283712815600
+
+2022-10-27 15:31:22,923 INFO [PUSH-SUCC] 28ms, all delay time 549ms, SLA 475ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:31:26,034 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=11}
+
+2022-10-27 15:31:26,513 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:31:26,513 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:53349, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53349,4287330165000
+
+2022-10-27 15:31:26,513 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:31:26,513 INFO send udp packet: 2.0.0.1,53349,4287330165000
+
+2022-10-27 15:31:26,513 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:52081, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52081,4287330443699
+
+2022-10-27 15:31:26,513 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:31:26,514 INFO send udp packet: 2.0.0.1,52081,4287330443699
+
+2022-10-27 15:31:26,514 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:50675, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,50675,4287330841400
+
+2022-10-27 15:31:26,514 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:31:26,514 INFO send udp packet: 2.0.0.1,50675,4287330841400
+
+2022-10-27 15:31:26,514 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:57783, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57783,4287331157400
+
+2022-10-27 15:31:26,514 INFO send udp packet: 2.0.0.1,57783,4287331157400
+
+2022-10-27 15:31:26,532 INFO [PUSH-SUCC] 18ms, all delay time 573ms, SLA 498ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:31:32,904 INFO retry to push data, key: 2.0.0.1,52075,4283710440600
+
+2022-10-27 15:31:32,904 INFO retry to push data, key: 2.0.0.1,52081,4283710970100
+
+2022-10-27 15:31:32,904 INFO retry to push data, key: 2.0.0.1,52076,4283712202599
+
+2022-10-27 15:31:32,940 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=5}
+
+2022-10-27 15:31:33,463 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:31:33,463 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:52081, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52081,4294279501400
+
+2022-10-27 15:31:33,463 INFO send udp packet: 2.0.0.1,52081,4294279501400
+
+2022-10-27 15:31:33,463 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:31:33,464 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:57792, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57792,4294279827800
+
+2022-10-27 15:31:33,464 INFO send udp packet: 2.0.0.1,57792,4294279827800
+
+2022-10-27 15:31:33,478 INFO [PUSH-SUCC] 15ms, all delay time 608ms, SLA 538ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:31:34,076 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=12}
+
+2022-10-27 15:31:34,558 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:31:34,558 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:61529, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,61529,4295374394300
+
+2022-10-27 15:31:34,558 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:31:34,558 INFO send udp packet: 2.0.0.1,61529,4295374394300
+
+2022-10-27 15:31:34,559 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:53349, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53349,4295374815899
+
+2022-10-27 15:31:34,559 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:31:34,559 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:52081, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52081,4295375314799
+
+2022-10-27 15:31:34,559 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:31:34,559 INFO send udp packet: 2.0.0.1,53349,4295374815899
+
+2022-10-27 15:31:34,559 INFO send udp packet: 2.0.0.1,52081,4295375314799
+
+2022-10-27 15:31:34,559 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:50675, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,50675,4295375477599
+
+2022-10-27 15:31:34,559 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:31:34,560 INFO send udp packet: 2.0.0.1,50675,4295375477599
+
+2022-10-27 15:31:34,560 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:57783, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57783,4295376008900
+
+2022-10-27 15:31:34,560 INFO send udp packet: 2.0.0.1,57783,4295376008900
+
+2022-10-27 15:31:34,563 INFO [PUSH-SUCC] 4ms, all delay time 553ms, SLA 487ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=12}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 15:31:34,564 INFO [PUSH-SUCC] 6ms, all delay time 554ms, SLA 488ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=12}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 15:31:36,516 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=12}
+
+2022-10-27 15:31:36,521 INFO retry to push data, key: 2.0.0.1,53349,4287330165000
+
+2022-10-27 15:31:36,521 INFO retry to push data, key: 2.0.0.1,52081,4287330443699
+
+2022-10-27 15:31:36,521 INFO retry to push data, key: 2.0.0.1,50675,4287330841400
+
+2022-10-27 15:31:36,973 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:31:36,973 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:52075, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52075,4297790052300
+
+2022-10-27 15:31:36,973 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:31:36,973 INFO send udp packet: 2.0.0.1,52075,4297790052300
+
+2022-10-27 15:31:36,974 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:52081, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52081,4297790436399
+
+2022-10-27 15:31:36,974 INFO send udp packet: 2.0.0.1,52081,4297790436399
+
+2022-10-27 15:31:36,974 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:31:36,974 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:52076, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52076,4297791205100
+
+2022-10-27 15:31:36,974 INFO send udp packet: 2.0.0.1,52076,4297791205100
+
+2022-10-27 15:31:36,974 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:31:36,975 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:57777, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57777,4297791616800
+
+2022-10-27 15:31:36,975 INFO send udp packet: 2.0.0.1,57777,4297791616800
+
+2022-10-27 15:31:36,975 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:31:36,975 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:61534, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,61534,4297792071600
+
+2022-10-27 15:31:36,975 INFO send udp packet: 2.0.0.1,61534,4297792071600
+
+2022-10-27 15:31:36,978 INFO [PUSH-SUCC] 4ms, all delay time 517ms, SLA 462ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=12}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 15:31:36,979 INFO [PUSH-SUCC] 4ms, all delay time 518ms, SLA 463ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=12}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 15:31:42,920 WARN max re-push times reached, retry times 2, key: 2.0.0.1,52075,4283710440600
+
+2022-10-27 15:31:42,921 ERROR [PUSH-FAIL] 20028ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=12}, reason=null, target=2.0.0.1
+
+2022-10-27 15:31:42,921 WARN max re-push times reached, retry times 2, key: 2.0.0.1,52081,4283710970100
+
+2022-10-27 15:31:42,921 ERROR [PUSH-FAIL] 20027ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=12}, reason=null, target=2.0.0.1
+
+2022-10-27 15:31:42,921 WARN max re-push times reached, retry times 2, key: 2.0.0.1,52076,4283712202599
+
+2022-10-27 15:31:42,921 ERROR [PUSH-FAIL] 20026ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=12}, reason=null, target=2.0.0.1
+
+2022-10-27 15:31:43,480 INFO retry to push data, key: 2.0.0.1,52081,4294279501400
+
+2022-10-27 15:31:44,566 INFO retry to push data, key: 2.0.0.1,53349,4295374815899
+
+2022-10-27 15:31:44,566 INFO retry to push data, key: 2.0.0.1,52081,4295375314799
+
+2022-10-27 15:31:44,566 INFO retry to push data, key: 2.0.0.1,50675,4295375477599
+
+2022-10-27 15:31:46,535 WARN max re-push times reached, retry times 2, key: 2.0.0.1,53349,4287330165000
+
+2022-10-27 15:31:46,535 ERROR [PUSH-FAIL] 20022ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=12}, reason=null, target=2.0.0.1
+
+2022-10-27 15:31:46,535 WARN max re-push times reached, retry times 2, key: 2.0.0.1,52081,4287330443699
+
+2022-10-27 15:31:46,535 ERROR [PUSH-FAIL] 20022ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=12}, reason=null, target=2.0.0.1
+
+2022-10-27 15:31:46,535 WARN max re-push times reached, retry times 2, key: 2.0.0.1,50675,4287330841400
+
+2022-10-27 15:31:46,535 ERROR [PUSH-FAIL] 20022ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=12}, reason=null, target=2.0.0.1
+
+2022-10-27 15:31:46,987 INFO retry to push data, key: 2.0.0.1,52075,4297790052300
+
+2022-10-27 15:31:46,987 INFO retry to push data, key: 2.0.0.1,52081,4297790436399
+
+2022-10-27 15:31:46,987 INFO retry to push data, key: 2.0.0.1,52076,4297791205100
+
+2022-10-27 15:31:53,009 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:31:53,009 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:61529, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,61529,4313825948300
+
+2022-10-27 15:31:53,009 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:31:53,009 INFO send udp packet: 2.0.0.1,61529,4313825948300
+
+2022-10-27 15:31:53,009 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:57783, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57783,4313826299499
+
+2022-10-27 15:31:53,010 INFO send udp packet: 2.0.0.1,57783,4313826299499
+
+2022-10-27 15:31:53,013 INFO [PUSH-SUCC] 4ms, all delay time 603ms, SLA 603ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=13}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:31:53,013 INFO [PUSH-SUCC] 4ms, all delay time 603ms, SLA 603ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=13}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:31:53,497 WARN max re-push times reached, retry times 2, key: 2.0.0.1,52081,4294279501400
+
+2022-10-27 15:31:53,497 ERROR [PUSH-FAIL] 20034ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=5}, reason=null, target=2.0.0.1
+
+2022-10-27 15:31:54,579 WARN max re-push times reached, retry times 2, key: 2.0.0.1,53349,4295374815899
+
+2022-10-27 15:31:54,579 ERROR [PUSH-FAIL] 20021ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=13}, reason=null, target=2.0.0.1
+
+2022-10-27 15:31:54,579 WARN max re-push times reached, retry times 2, key: 2.0.0.1,52081,4295375314799
+
+2022-10-27 15:31:54,579 ERROR [PUSH-FAIL] 20020ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=13}, reason=null, target=2.0.0.1
+
+2022-10-27 15:31:54,579 WARN max re-push times reached, retry times 2, key: 2.0.0.1,50675,4295375477599
+
+2022-10-27 15:31:54,579 ERROR [PUSH-FAIL] 20020ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=13}, reason=null, target=2.0.0.1
+
+2022-10-27 15:31:56,998 WARN max re-push times reached, retry times 2, key: 2.0.0.1,52075,4297790052300
+
+2022-10-27 15:31:56,998 ERROR [PUSH-FAIL] 20025ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=12}, reason=null, target=2.0.0.1
+
+2022-10-27 15:31:56,999 WARN max re-push times reached, retry times 2, key: 2.0.0.1,52081,4297790436399
+
+2022-10-27 15:31:56,999 ERROR [PUSH-FAIL] 20026ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=12}, reason=null, target=2.0.0.1
+
+2022-10-27 15:31:56,999 WARN max re-push times reached, retry times 2, key: 2.0.0.1,52076,4297791205100
+
+2022-10-27 15:31:56,999 ERROR [PUSH-FAIL] 20025ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=12}, reason=null, target=2.0.0.1
+
+2022-10-27 15:32:05,611 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=14}
+
+2022-10-27 15:32:06,070 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:32:06,070 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:61529, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,61529,4326886463900
+
+2022-10-27 15:32:06,070 INFO send udp packet: 2.0.0.1,61529,4326886463900
+
+2022-10-27 15:32:06,070 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:32:06,071 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:52487, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52487,4326887247100
+
+2022-10-27 15:32:06,071 INFO send udp packet: 2.0.0.1,52487,4326887247100
+
+2022-10-27 15:32:06,071 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:32:06,071 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:57783, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57783,4326887862499
+
+2022-10-27 15:32:06,071 INFO send udp packet: 2.0.0.1,57783,4326887862499
+
+2022-10-27 15:32:06,074 INFO [PUSH-SUCC] 3ms, all delay time 534ms, SLA 463ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=14}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 15:32:06,076 INFO [PUSH-SUCC] 6ms, all delay time 536ms, SLA 465ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=14}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 15:32:07,498 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:32:07,498 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:57792, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57792,4328315068300
+
+2022-10-27 15:32:07,498 INFO send udp packet: 2.0.0.1,57792,4328315068300
+
+2022-10-27 15:32:07,501 INFO [PUSH-SUCC] 3ms, all delay time 537ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=14}, originalSize=2, DataSize=2
+
+2022-10-27 15:32:07,822 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:32:07,822 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:57792, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57792,4328638616200
+
+2022-10-27 15:32:07,822 INFO send udp packet: 2.0.0.1,57792,4328638616200
+
+2022-10-27 15:32:07,824 INFO [PUSH-SUCC] 2ms, all delay time 543ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=12}, originalSize=2, DataSize=2
+
+2022-10-27 15:32:16,072 INFO retry to push data, key: 2.0.0.1,61529,4326886463900
+
+2022-10-27 15:32:26,089 WARN max re-push times reached, retry times 2, key: 2.0.0.1,61529,4326886463900
+
+2022-10-27 15:32:26,089 ERROR [PUSH-FAIL] 20019ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=14}, reason=null, target=2.0.0.1
+
+2022-10-27 15:32:49,271 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:32:49,271 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:57792, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57792,4370087533199
+
+2022-10-27 15:32:49,271 INFO send udp packet: 2.0.0.1,57792,4370087533199
+
+2022-10-27 15:32:49,271 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:32:49,272 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:52487, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52487,4370087908400
+
+2022-10-27 15:32:49,272 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:32:49,272 INFO send udp packet: 2.0.0.1,52487,4370087908400
+
+2022-10-27 15:32:49,272 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:57783, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57783,4370088485200
+
+2022-10-27 15:32:49,272 INFO send udp packet: 2.0.0.1,57783,4370088485200
+
+2022-10-27 15:32:49,275 INFO [PUSH-SUCC] 4ms, all delay time 527ms, SLA 527ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=15}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:32:49,275 INFO [PUSH-SUCC] 4ms, all delay time 527ms, SLA 527ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=15}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:32:49,277 INFO [PUSH-SUCC] 5ms, all delay time 529ms, SLA 529ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=15}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:32:53,018 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:32:53,018 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:57792, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57792,4373834879600
+
+2022-10-27 15:32:53,018 INFO send udp packet: 2.0.0.1,57792,4373834879600
+
+2022-10-27 15:32:53,021 INFO [PUSH-SUCC] 3ms, all delay time 564ms, SLA 564ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=6}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:33:08,823 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=16}
+
+2022-10-27 15:33:09,290 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:33:09,290 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:57792, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57792,4390106375300
+
+2022-10-27 15:33:09,290 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:33:09,290 INFO send udp packet: 2.0.0.1,57792,4390106375300
+
+2022-10-27 15:33:09,290 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:52487, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52487,4390106907000
+
+2022-10-27 15:33:09,290 INFO send udp packet: 2.0.0.1,52487,4390106907000
+
+2022-10-27 15:33:09,290 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:33:09,291 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:57519, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57519,4390107742700
+
+2022-10-27 15:33:09,291 INFO send udp packet: 2.0.0.1,57519,4390107742700
+
+2022-10-27 15:33:09,291 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:33:09,291 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:57783, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57783,4390108210100
+
+2022-10-27 15:33:09,291 INFO send udp packet: 2.0.0.1,57783,4390108210100
+
+2022-10-27 15:33:09,297 INFO [PUSH-SUCC] 6ms, all delay time 544ms, SLA 474ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=16}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 15:33:09,300 INFO [PUSH-SUCC] 10ms, all delay time 547ms, SLA 477ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=16}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 15:33:14,659 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=7}
+
+2022-10-27 15:33:15,213 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:33:15,213 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:57528, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57528,4396029846800
+
+2022-10-27 15:33:15,213 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:33:15,213 INFO send udp packet: 2.0.0.1,57528,4396029846800
+
+2022-10-27 15:33:15,213 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:57792, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57792,4396030074399
+
+2022-10-27 15:33:15,214 INFO send udp packet: 2.0.0.1,57792,4396030074399
+
+2022-10-27 15:33:15,227 INFO [PUSH-SUCC] 14ms, all delay time 624ms, SLA 568ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:33:19,299 INFO retry to push data, key: 2.0.0.1,57792,4390106375300
+
+2022-10-27 15:33:19,299 INFO retry to push data, key: 2.0.0.1,52487,4390106907000
+
+2022-10-27 15:33:25,229 INFO retry to push data, key: 2.0.0.1,57792,4396030074399
+
+2022-10-27 15:33:29,310 WARN max re-push times reached, retry times 2, key: 2.0.0.1,57792,4390106375300
+
+2022-10-27 15:33:29,310 ERROR [PUSH-FAIL] 20020ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=16}, reason=null, target=2.0.0.1
+
+2022-10-27 15:33:29,310 WARN max re-push times reached, retry times 2, key: 2.0.0.1,52487,4390106907000
+
+2022-10-27 15:33:29,310 ERROR [PUSH-FAIL] 20020ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=16}, reason=null, target=2.0.0.1
+
+2022-10-27 15:33:35,243 WARN max re-push times reached, retry times 2, key: 2.0.0.1,57792,4396030074399
+
+2022-10-27 15:33:35,243 ERROR [PUSH-FAIL] 20030ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=7}, reason=null, target=2.0.0.1
+
+2022-10-27 15:33:45,318 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:33:45,319 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:57528, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57528,4426135563600
+
+2022-10-27 15:33:45,319 INFO send udp packet: 2.0.0.1,57528,4426135563600
+
+2022-10-27 15:33:45,322 INFO [PUSH-SUCC] 4ms, all delay time 602ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=16}, originalSize=2, DataSize=2
+
+2022-10-27 15:33:45,529 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:33:45,529 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:57528, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57528,4426346033400
+
+2022-10-27 15:33:45,529 INFO send udp packet: 2.0.0.1,57528,4426346033400
+
+2022-10-27 15:33:45,531 INFO [PUSH-SUCC] 2ms, all delay time 511ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=12}, originalSize=2, DataSize=2
+
+2022-10-27 15:33:54,891 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:33:54,891 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:57528, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57528,4435707676200
+
+2022-10-27 15:33:54,891 INFO send udp packet: 2.0.0.1,57528,4435707676200
+
+2022-10-27 15:33:54,894 INFO [PUSH-SUCC] 3ms, all delay time 524ms, SLA 524ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=8}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:34:06,659 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=9}
+
+2022-10-27 15:34:07,178 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:34:07,178 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:49233, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49233,4447994721300
+
+2022-10-27 15:34:07,178 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:34:07,178 INFO send udp packet: 2.0.0.1,49233,4447994721300
+
+2022-10-27 15:34:07,178 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:57528, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57528,4447995112000
+
+2022-10-27 15:34:07,179 INFO send udp packet: 2.0.0.1,57528,4447995112000
+
+2022-10-27 15:34:07,194 INFO [PUSH-SUCC] 16ms, all delay time 593ms, SLA 535ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:34:12,440 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:34:12,440 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:34:12,440 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:49233, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49233,4453257103800
+
+2022-10-27 15:34:12,440 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:49233, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49233,4453257128700
+
+2022-10-27 15:34:12,440 INFO send udp packet: 2.0.0.1,49233,4453257103800
+
+2022-10-27 15:34:12,441 INFO send udp packet: 2.0.0.1,49233,4453257128700
+
+2022-10-27 15:34:12,443 INFO [PUSH-SUCC] 3ms, all delay time 554ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=12}, originalSize=2, DataSize=2
+
+2022-10-27 15:34:12,444 INFO [PUSH-SUCC] 4ms, all delay time 601ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=16}, originalSize=2, DataSize=2
+
+2022-10-27 15:34:17,196 INFO retry to push data, key: 2.0.0.1,57528,4447995112000
+
+2022-10-27 15:34:27,197 WARN max re-push times reached, retry times 2, key: 2.0.0.1,57528,4447995112000
+
+2022-10-27 15:34:27,197 ERROR [PUSH-FAIL] 20019ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=9}, reason=null, target=2.0.0.1
+
+2022-10-27 15:35:02,147 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:35:02,147 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:49233, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49233,4502964563400
+
+2022-10-27 15:35:02,147 INFO send udp packet: 2.0.0.1,49233,4502964563400
+
+2022-10-27 15:35:02,150 INFO [PUSH-SUCC] 3ms, all delay time 586ms, SLA 586ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=10}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:35:15,721 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=11}
+
+2022-10-27 15:35:16,229 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:35:16,229 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:49233, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49233,4517045316000
+
+2022-10-27 15:35:16,229 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:35:16,229 INFO send udp packet: 2.0.0.1,49233,4517045316000
+
+2022-10-27 15:35:16,229 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:54815, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,54815,4517045516300
+
+2022-10-27 15:35:16,229 INFO send udp packet: 2.0.0.1,54815,4517045516300
+
+2022-10-27 15:35:16,243 INFO [PUSH-SUCC] 14ms, all delay time 577ms, SLA 522ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:35:26,231 INFO retry to push data, key: 2.0.0.1,49233,4517045316000
+
+2022-10-27 15:35:36,247 WARN max re-push times reached, retry times 2, key: 2.0.0.1,49233,4517045316000
+
+2022-10-27 15:35:36,247 ERROR [PUSH-FAIL] 20018ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=11}, reason=null, target=2.0.0.1
+
+2022-10-27 15:35:39,740 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:35:39,740 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:54815, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,54815,4540557274200
+
+2022-10-27 15:35:39,740 INFO send udp packet: 2.0.0.1,54815,4540557274200
+
+2022-10-27 15:35:48,245 INFO [PUSH-SUCC] 8505ms, all delay time 9021ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=16}, originalSize=2, DataSize=2
+
+2022-10-27 15:36:03,198 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:36:03,198 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:54815, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,54815,4564014924200
+
+2022-10-27 15:36:03,198 INFO send udp packet: 2.0.0.1,54815,4564014924200
+
+2022-10-27 15:36:03,202 INFO [PUSH-SUCC] 4ms, all delay time 579ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=12}, originalSize=2, DataSize=2
+
+2022-10-27 15:36:03,612 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:36:03,612 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:54815, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,54815,4564428333200
+
+2022-10-27 15:36:03,612 INFO send udp packet: 2.0.0.1,54815,4564428333200
+
+2022-10-27 15:36:03,615 INFO [PUSH-SUCC] 3ms, all delay time 509ms, SLA 509ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=12}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:36:20,199 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=13}
+
+2022-10-27 15:36:20,745 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:36:20,745 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:54815, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,54815,4581561737600
+
+2022-10-27 15:36:20,745 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:36:20,745 INFO send udp packet: 2.0.0.1,54815,4581561737600
+
+2022-10-27 15:36:20,745 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:57213, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57213,4581561933000
+
+2022-10-27 15:36:20,746 INFO send udp packet: 2.0.0.1,57213,4581561933000
+
+2022-10-27 15:36:20,760 INFO [PUSH-SUCC] 15ms, all delay time 618ms, SLA 561ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=13}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:36:30,754 INFO retry to push data, key: 2.0.0.1,54815,4581561737600
+
+2022-10-27 15:36:40,766 WARN max re-push times reached, retry times 2, key: 2.0.0.1,54815,4581561737600
+
+2022-10-27 15:36:40,766 ERROR [PUSH-FAIL] 20021ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=13}, reason=null, target=2.0.0.1
+
+2022-10-27 15:37:29,995 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:37:29,995 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:57213, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57213,4650811974700
+
+2022-10-27 15:37:29,995 INFO send udp packet: 2.0.0.1,57213,4650811974700
+
+2022-10-27 15:37:40,013 INFO retry to push data, key: 2.0.0.1,57213,4650811974700
+
+2022-10-27 15:37:42,157 WARN ack takes too long from /2.0.0.1:57213 ack json: {"type": "push-ack", "lastRefTime":"4650811974700", "data":""}
+
+2022-10-27 15:37:42,157 INFO [PUSH-SUCC] 12162ms, all delay time 12761ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=16}, originalSize=2, DataSize=2
+
+2022-10-27 15:37:42,158 WARN ack takes too long from /2.0.0.1:57213 ack json: {"type": "push-ack", "lastRefTime":"4650811974700", "data":""}
+
+2022-10-27 15:37:42,158 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 2.0.0.1,57213,4650811974700, ack json: {"type": "push-ack", "lastRefTime":"4650811974700", "data":""}
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpReceiver.run(UdpConnector.java:205)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-27 15:37:42,682 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:37:42,682 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:57213, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57213,4663498545200
+
+2022-10-27 15:37:42,682 INFO send udp packet: 2.0.0.1,57213,4663498545200
+
+2022-10-27 15:37:42,684 INFO [PUSH-SUCC] 2ms, all delay time 518ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=12}, originalSize=2, DataSize=2
+
+2022-10-27 15:37:43,215 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:37:43,215 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:57213, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57213,4664032505200
+
+2022-10-27 15:37:43,215 INFO send udp packet: 2.0.0.1,57213,4664032505200
+
+2022-10-27 15:37:43,219 INFO [PUSH-SUCC] 4ms, all delay time 555ms, SLA 555ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=14}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:40:15,497 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=1}
+
+2022-10-27 15:40:16,034 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:40:16,034 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:55242, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,55242,4816850846300
+
+2022-10-27 15:40:16,034 INFO send udp packet: 2.0.0.1,55242,4816850846300
+
+2022-10-27 15:40:16,050 INFO [PUSH-SUCC] 16ms, all delay time 604ms, SLA 553ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:42:56,871 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:42:56,871 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:55242, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,55242,4977687565000
+
+2022-10-27 15:42:56,871 INFO send udp packet: 2.0.0.1,55242,4977687565000
+
+2022-10-27 15:42:56,873 INFO [PUSH-SUCC] 2ms, all delay time 507ms, SLA 507ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:43:14,980 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:43:14,980 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:63943, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63943,4995797158300
+
+2022-10-27 15:43:14,980 INFO send udp packet: 2.0.0.1,63943,4995797158300
+
+2022-10-27 15:43:14,984 INFO [PUSH-SUCC] 4ms, all delay time 533ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=2}, originalSize=0, DataSize=0
+
+2022-10-27 15:43:41,599 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:43:41,599 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:53714, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53714,5022415586100
+
+2022-10-27 15:43:41,599 INFO send udp packet: 2.0.0.1,53714,5022415586100
+
+2022-10-27 15:43:41,602 INFO [PUSH-SUCC] 3ms, all delay time 568ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=2}, originalSize=0, DataSize=0
+
+2022-10-27 15:44:13,234 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=14}
+
+2022-10-27 15:44:13,287 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=18}
+
+2022-10-27 15:44:13,756 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:44:13,756 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:57777, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57777,5054572570700
+
+2022-10-27 15:44:13,756 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:44:13,756 INFO send udp packet: 2.0.0.1,57777,5054572570700
+
+2022-10-27 15:44:13,756 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:61534, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,61534,5054572846800
+
+2022-10-27 15:44:13,757 INFO send udp packet: 2.0.0.1,61534,5054572846800
+
+2022-10-27 15:44:13,760 INFO [PUSH-SUCC] 4ms, all delay time 567ms, SLA 526ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=14}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:44:13,760 INFO [PUSH-SUCC] 4ms, all delay time 567ms, SLA 526ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=14}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:44:13,870 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:44:13,870 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:57519, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57519,5054686918600
+
+2022-10-27 15:44:13,870 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:44:13,870 INFO send udp packet: 2.0.0.1,57519,5054686918600
+
+2022-10-27 15:44:13,870 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:57783, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57783,5054687127400
+
+2022-10-27 15:44:13,870 INFO send udp packet: 2.0.0.1,57783,5054687127400
+
+2022-10-27 15:44:13,873 INFO [PUSH-SUCC] 3ms, all delay time 605ms, SLA 586ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=18}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:44:13,874 INFO [PUSH-SUCC] 4ms, all delay time 606ms, SLA 587ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=18}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:46:29,106 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}
+
+2022-10-27 15:46:29,501 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:46:29,510 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:65236, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,65236,5190318858100
+
+2022-10-27 15:46:29,512 INFO send udp packet: 2.0.0.1,65236,5190318858100
+
+2022-10-27 15:46:29,535 INFO [PUSH-SUCC] 35ms, all delay time 586ms, SLA 430ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:46:36,536 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:46:36,536 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:49506, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49506,5197353319800
+
+2022-10-27 15:46:36,536 INFO send udp packet: 2.0.0.1,49506,5197353319800
+
+2022-10-27 15:46:36,539 INFO [PUSH-SUCC] 3ms, all delay time 585ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-10-27 15:46:37,558 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}
+
+2022-10-27 15:46:38,062 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:46:38,064 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:49511, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49511,5198879278500
+
+2022-10-27 15:46:38,064 INFO send udp packet: 2.0.0.1,49511,5198879278500
+
+2022-10-27 15:46:38,064 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:46:38,065 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:65236, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,65236,5198882026900
+
+2022-10-27 15:46:38,065 INFO send udp packet: 2.0.0.1,65236,5198882026900
+
+2022-10-27 15:46:38,068 INFO [PUSH-SUCC] 4ms, all delay time 584ms, SLA 510ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 15:46:38,070 INFO [PUSH-SUCC] 8ms, all delay time 586ms, SLA 512ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 15:46:40,653 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}
+
+2022-10-27 15:46:41,132 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:46:41,133 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:63927, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63927,5201949468800
+
+2022-10-27 15:46:41,133 INFO send udp packet: 2.0.0.1,63927,5201949468800
+
+2022-10-27 15:46:41,150 INFO [PUSH-SUCC] 18ms, all delay time 550ms, SLA 498ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 15:46:42,093 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}
+
+2022-10-27 15:46:42,568 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:46:42,571 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:63927, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63927,5203385243100
+
+2022-10-27 15:46:42,571 INFO send udp packet: 2.0.0.1,63927,5203385243100
+
+2022-10-27 15:46:42,571 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:46:42,572 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:63932, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63932,5203388829400
+
+2022-10-27 15:46:42,572 INFO send udp packet: 2.0.0.1,63932,5203388829400
+
+2022-10-27 15:46:42,575 INFO [PUSH-SUCC] 7ms, all delay time 542ms, SLA 482ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 15:46:42,577 INFO [PUSH-SUCC] 6ms, all delay time 544ms, SLA 484ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 15:48:22,068 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:48:22,068 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:55449, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,55449,5302885019100
+
+2022-10-27 15:48:22,069 INFO send udp packet: 2.0.0.1,55449,5302885019100
+
+2022-10-27 15:48:22,072 INFO [PUSH-SUCC] 4ms, all delay time 589ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-10-27 15:49:02,684 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 15:49:02,684 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:57609, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57609,5343500585000
+
+2022-10-27 15:49:02,684 INFO send udp packet: 2.0.0.1,57609,5343500585000
+
+2022-10-27 15:49:02,687 INFO [PUSH-SUCC] 3ms, all delay time 597ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, originalSize=0, DataSize=0
+
+2022-10-27 15:49:14,271 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=4}
+
+2022-10-27 15:49:14,332 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=4}
+
+2022-10-27 15:49:14,822 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:49:14,822 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:49:14,823 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:49511, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49511,5355639075400
+
+2022-10-27 15:49:14,823 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:63927, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63927,5355639052200
+
+2022-10-27 15:49:14,823 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 15:49:14,823 INFO send udp packet: 2.0.0.1,49511,5355639075400
+
+2022-10-27 15:49:14,823 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 15:49:14,823 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:65236, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,65236,5355639507600
+
+2022-10-27 15:49:14,823 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:63932, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63932,5355640009400
+
+2022-10-27 15:49:14,824 INFO send udp packet: 2.0.0.1,63927,5355639052200
+
+2022-10-27 15:49:14,824 INFO send udp packet: 2.0.0.1,65236,5355639507600
+
+2022-10-27 15:49:14,824 INFO send udp packet: 2.0.0.1,63932,5355640009400
+
+2022-10-27 15:49:14,828 INFO [PUSH-SUCC] 6ms, all delay time 510ms, SLA 497ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:49:14,829 INFO [PUSH-SUCC] 7ms, all delay time 612ms, SLA 558ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:49:14,829 INFO [PUSH-SUCC] 6ms, all delay time 612ms, SLA 558ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 15:49:14,829 INFO [PUSH-SUCC] 6ms, all delay time 511ms, SLA 498ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 16:20:36,640 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}
+
+2022-10-27 16:20:37,122 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 16:20:37,134 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:52486, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52486,7237940268300
+
+2022-10-27 16:20:37,135 INFO send udp packet: 2.0.0.1,52486,7237940268300
+
+2022-10-27 16:20:37,162 INFO [PUSH-SUCC] 41ms, all delay time 644ms, SLA 522ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 16:20:41,099 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}
+
+2022-10-27 16:20:41,518 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 16:20:41,519 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:52491, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52491,7242335617700
+
+2022-10-27 16:20:41,519 INFO send udp packet: 2.0.0.1,52491,7242335617700
+
+2022-10-27 16:20:41,519 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 16:20:41,519 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:52486, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52486,7242338980500
+
+2022-10-27 16:20:41,519 INFO send udp packet: 2.0.0.1,52486,7242338980500
+
+2022-10-27 16:20:41,519 INFO [PUSH-SUCC] 0ms, all delay time 542ms, SLA 421ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 16:20:41,530 INFO [PUSH-SUCC] 12ms, all delay time 553ms, SLA 432ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 16:20:48,848 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}
+
+2022-10-27 16:20:49,279 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 16:20:49,280 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:49360, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49360,7250095957100
+
+2022-10-27 16:20:49,280 INFO send udp packet: 2.0.0.1,49360,7250095957100
+
+2022-10-27 16:20:49,307 INFO [PUSH-SUCC] 27ms, all delay time 534ms, SLA 458ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 16:20:50,140 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}
+
+2022-10-27 16:20:50,592 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 16:20:50,594 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:49360, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49360,7251409350900
+
+2022-10-27 16:20:50,594 INFO send udp packet: 2.0.0.1,49360,7251409350900
+
+2022-10-27 16:20:50,594 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 16:20:50,595 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:49361, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49361,7251412166700
+
+2022-10-27 16:20:50,595 INFO send udp packet: 2.0.0.1,49361,7251412166700
+
+2022-10-27 16:20:50,598 INFO [PUSH-SUCC] 6ms, all delay time 526ms, SLA 458ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 16:20:50,601 INFO [PUSH-SUCC] 7ms, all delay time 529ms, SLA 461ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 16:20:53,428 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 16:20:53,428 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:49366, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49366,7254245416800
+
+2022-10-27 16:20:53,428 INFO send udp packet: 2.0.0.1,49366,7254245416800
+
+2022-10-27 16:20:53,433 INFO [PUSH-SUCC] 5ms, all delay time 601ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-10-27 16:22:07,857 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 16:22:07,857 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:57097, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,57097,7328674296500
+
+2022-10-27 16:22:07,857 INFO send udp packet: 2.0.0.1,57097,7328674296500
+
+2022-10-27 16:22:07,862 INFO [PUSH-SUCC] 5ms, all delay time 597ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, originalSize=0, DataSize=0
+
+2022-10-27 16:25:11,138 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=1}
+
+2022-10-27 16:25:11,665 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 16:25:11,665 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:59839, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,59839,7512482288000
+
+2022-10-27 16:25:11,665 INFO send udp packet: 2.0.0.1,59839,7512482288000
+
+2022-10-27 16:25:11,678 INFO [PUSH-SUCC] 13ms, all delay time 590ms, SLA 540ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 16:25:27,413 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 16:25:27,413 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:59839, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,59839,7528229994800
+
+2022-10-27 16:25:27,413 INFO send udp packet: 2.0.0.1,59839,7528229994800
+
+2022-10-27 16:25:27,417 INFO [PUSH-SUCC] 4ms, all delay time 550ms, SLA 550ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 16:25:43,241 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 16:25:43,241 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:49798, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49798,7544057889500
+
+2022-10-27 16:25:43,241 INFO send udp packet: 2.0.0.1,49798,7544057889500
+
+2022-10-27 16:25:43,245 INFO [PUSH-SUCC] 4ms, all delay time 570ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=2}, originalSize=0, DataSize=0
+
+2022-10-27 16:34:12,415 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}
+
+2022-10-27 16:34:12,522 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}
+
+2022-10-27 16:34:12,597 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}
+
+2022-10-27 16:34:12,616 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}
+
+2022-10-27 16:34:12,961 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 16:34:12,973 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:49361, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49361,8053779193400
+
+2022-10-27 16:34:12,974 INFO send udp packet: 2.0.0.1,49361,8053779193400
+
+2022-10-27 16:34:12,996 INFO [PUSH-SUCC] 36ms, all delay time 581ms, SLA 583ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 16:34:13,071 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 16:34:13,072 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:52491, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52491,8053887808500
+
+2022-10-27 16:34:13,072 INFO send udp packet: 2.0.0.1,52491,8053887808500
+
+2022-10-27 16:34:13,075 INFO [PUSH-SUCC] 4ms, all delay time 554ms, SLA 459ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 16:34:13,201 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=1}
+
+2022-10-27 16:34:13,613 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 16:34:13,613 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:58441, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,58441,8054429489900
+
+2022-10-27 16:34:13,613 INFO send udp packet: 2.0.0.1,58441,8054429489900
+
+2022-10-27 16:34:13,626 INFO [PUSH-SUCC] 13ms, all delay time 528ms, SLA 426ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=1}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 16:34:24,856 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 16:34:24,856 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:58441, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,58441,8065673005400
+
+2022-10-27 16:34:24,856 INFO send udp packet: 2.0.0.1,58441,8065673005400
+
+2022-10-27 16:34:24,859 INFO [PUSH-SUCC] 3ms, all delay time 595ms, SLA 595ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=2}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 16:34:41,773 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 16:34:41,776 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:52486, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52486,8082590263000
+
+2022-10-27 16:34:41,776 INFO send udp packet: 2.0.0.1,52486,8082590263000
+
+2022-10-27 16:34:41,778 INFO [PUSH-SUCC] 5ms, all delay time 580ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2
+
+2022-10-27 16:34:43,844 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 16:34:43,845 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:49360, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49360,8084661195000
+
+2022-10-27 16:34:43,845 INFO send udp packet: 2.0.0.1,49360,8084661195000
+
+2022-10-27 16:34:43,847 INFO [PUSH-SUCC] 3ms, all delay time 521ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2
+
+2022-10-27 16:34:45,133 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 16:34:45,134 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:52491, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52491,8085950154200
+
+2022-10-27 16:34:45,134 INFO send udp packet: 2.0.0.1,52491,8085950154200
+
+2022-10-27 16:34:45,136 INFO [PUSH-SUCC] 3ms, all delay time 558ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2
+
+2022-10-27 16:35:31,436 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=3}
+
+2022-10-27 16:35:31,904 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 16:35:31,904 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:58455, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,58455,8132720641600
+
+2022-10-27 16:35:31,904 INFO send udp packet: 2.0.0.1,58455,8132720641600
+
+2022-10-27 16:35:31,909 INFO [PUSH-SUCC] 5ms, all delay time 540ms, SLA 473ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=3}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 16:36:46,605 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 16:36:46,605 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:58455, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,58455,8207422232400
+
+2022-10-27 16:36:46,605 INFO send udp packet: 2.0.0.1,58455,8207422232400
+
+2022-10-27 16:36:46,608 INFO [PUSH-SUCC] 3ms, all delay time 573ms, SLA 573ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=4}, originalSize=1, DataSize=0, target=2.0.0.1
+
+2022-10-27 16:36:55,190 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 16:36:55,190 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:58455, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,58455,8216006546700
+
+2022-10-27 16:36:55,190 INFO send udp packet: 2.0.0.1,58455,8216006546700
+
+2022-10-27 16:36:55,193 INFO [PUSH-SUCC] 3ms, all delay time 576ms, SLA 576ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=5}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 16:37:08,672 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 16:37:08,673 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:58455, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,58455,8229488851100
+
+2022-10-27 16:37:08,673 INFO send udp packet: 2.0.0.1,58455,8229488851100
+
+2022-10-27 16:37:08,675 INFO [PUSH-SUCC] 3ms, all delay time 532ms, SLA 532ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=6}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 16:38:37,705 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=7}
+
+2022-10-27 16:38:38,213 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 16:38:38,213 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:52529, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52529,8319029893800
+
+2022-10-27 16:38:38,213 INFO send udp packet: 2.0.0.1,52529,8319029893800
+
+2022-10-27 16:38:38,219 INFO [PUSH-SUCC] 6ms, all delay time 583ms, SLA 514ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=7}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 16:40:34,164 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 16:40:34,164 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:52529, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52529,8434980988600
+
+2022-10-27 16:40:34,164 INFO send udp packet: 2.0.0.1,52529,8434980988600
+
+2022-10-27 16:40:34,167 INFO [PUSH-SUCC] 3ms, all delay time 590ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2
+
+2022-10-27 16:40:34,376 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 16:40:34,376 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:52529, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52529,8435192627099
+
+2022-10-27 16:40:34,376 INFO send udp packet: 2.0.0.1,52529,8435192627099
+
+2022-10-27 16:40:34,378 INFO [PUSH-SUCC] 2ms, all delay time 533ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2
+
+2022-10-27 16:40:40,118 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 16:40:40,118 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:52529, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52529,8440935427099
+
+2022-10-27 16:40:40,118 INFO send udp packet: 2.0.0.1,52529,8440935427099
+
+2022-10-27 16:40:40,121 INFO [PUSH-SUCC] 3ms, all delay time 537ms, SLA 537ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=8}, originalSize=1, DataSize=0, target=2.0.0.1
+
+2022-10-27 16:41:03,261 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 16:41:03,261 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:52529, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,52529,8464077938400
+
+2022-10-27 16:41:03,261 INFO send udp packet: 2.0.0.1,52529,8464077938400
+
+2022-10-27 16:41:03,265 INFO [PUSH-SUCC] 4ms, all delay time 564ms, SLA 564ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=9}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:06:37,752 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}
+
+2022-10-27 17:06:38,160 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:06:38,171 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:64050, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,64050,9998978087600
+
+2022-10-27 17:06:38,172 INFO send udp packet: 2.0.0.1,64050,9998978087600
+
+2022-10-27 17:06:38,195 INFO [PUSH-SUCC] 36ms, all delay time 560ms, SLA 444ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:06:41,117 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:06:41,117 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:53924, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53924,10001934135900
+
+2022-10-27 17:06:41,118 INFO send udp packet: 2.0.0.1,53924,10001934135900
+
+2022-10-27 17:06:41,126 INFO [PUSH-SUCC] 9ms, all delay time 554ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-10-27 17:06:48,286 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:06:48,286 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:55779, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,55779,10009103247700
+
+2022-10-27 17:06:48,286 INFO send udp packet: 2.0.0.1,55779,10009103247700
+
+2022-10-27 17:06:48,289 INFO [PUSH-SUCC] 3ms, all delay time 504ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-10-27 17:06:49,286 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:06:49,286 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:51674, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,51674,10010103241700
+
+2022-10-27 17:06:49,287 INFO send udp packet: 2.0.0.1,51674,10010103241700
+
+2022-10-27 17:06:49,292 INFO [PUSH-SUCC] 6ms, all delay time 542ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-10-27 17:06:52,156 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=3}
+
+2022-10-27 17:06:52,600 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 17:06:52,600 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:51679, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,51679,10013416266200
+
+2022-10-27 17:06:52,600 INFO send udp packet: 2.0.0.1,51679,10013416266200
+
+2022-10-27 17:06:52,604 INFO [PUSH-SUCC] 4ms, all delay time 521ms, SLA 449ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=3}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:07:23,073 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 17:07:23,074 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:51679, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,51679,10043889947700
+
+2022-10-27 17:07:23,074 INFO send udp packet: 2.0.0.1,51679,10043889947700
+
+2022-10-27 17:09:15,811 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=2}
+
+2022-10-27 17:09:15,814 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=3}
+
+2022-10-27 17:09:15,815 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=4}
+
+2022-10-27 17:09:31,828 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}
+
+2022-10-27 17:09:32,258 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:09:32,267 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:49643, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49643,10173075858000
+
+2022-10-27 17:09:32,268 INFO send udp packet: 2.0.0.1,49643,10173075858000
+
+2022-10-27 17:09:32,294 INFO [PUSH-SUCC] 37ms, all delay time 591ms, SLA 466ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:09:36,413 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:09:36,413 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:49648, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49648,10177230102100
+
+2022-10-27 17:09:36,413 INFO send udp packet: 2.0.0.1,49648,10177230102100
+
+2022-10-27 17:09:36,417 INFO [PUSH-SUCC] 4ms, all delay time 564ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-10-27 17:09:39,483 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:09:39,483 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:49978, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49978,10180299586800
+
+2022-10-27 17:09:39,483 INFO send udp packet: 2.0.0.1,49978,10180299586800
+
+2022-10-27 17:09:39,487 INFO [PUSH-SUCC] 4ms, all delay time 546ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-10-27 17:09:41,664 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:09:41,664 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:49983, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49983,10182481385600
+
+2022-10-27 17:09:41,664 INFO send udp packet: 2.0.0.1,49983,10182481385600
+
+2022-10-27 17:09:41,668 INFO [PUSH-SUCC] 4ms, all delay time 514ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-10-27 17:09:43,423 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=5}
+
+2022-10-27 17:09:43,894 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 17:09:43,894 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:49985, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49985,10184711442700
+
+2022-10-27 17:09:43,895 INFO send udp packet: 2.0.0.1,49985,10184711442700
+
+2022-10-27 17:09:43,900 INFO [PUSH-SUCC] 6ms, all delay time 573ms, SLA 477ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=5}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:10:35,708 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}
+
+2022-10-27 17:10:36,202 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:10:36,205 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:49643, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49643,10237019122200
+
+2022-10-27 17:10:36,205 INFO send udp packet: 2.0.0.1,49643,10237019122200
+
+2022-10-27 17:10:36,205 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:10:36,206 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:58516, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,58516,10237022197200
+
+2022-10-27 17:10:36,206 INFO send udp packet: 2.0.0.1,58516,10237022197200
+
+2022-10-27 17:10:36,210 INFO [PUSH-SUCC] 8ms, all delay time 571ms, SLA 502ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 17:10:36,213 INFO [PUSH-SUCC] 8ms, all delay time 574ms, SLA 505ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 17:10:38,426 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}
+
+2022-10-27 17:10:38,955 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:10:38,956 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:51509, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,51509,10239772564700
+
+2022-10-27 17:10:38,956 INFO send udp packet: 2.0.0.1,51509,10239772564700
+
+2022-10-27 17:10:38,974 INFO [PUSH-SUCC] 19ms, all delay time 610ms, SLA 548ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:10:41,064 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}
+
+2022-10-27 17:10:41,556 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:10:41,556 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:51509, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,51509,10242372570100
+
+2022-10-27 17:10:41,557 INFO send udp packet: 2.0.0.1,51509,10242372570100
+
+2022-10-27 17:10:41,557 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:10:41,557 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:51383, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,51383,10242373626300
+
+2022-10-27 17:10:41,557 INFO send udp packet: 2.0.0.1,51383,10242373626300
+
+2022-10-27 17:10:41,560 INFO [PUSH-SUCC] 4ms, all delay time 565ms, SLA 496ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 17:10:41,563 INFO [PUSH-SUCC] 6ms, all delay time 568ms, SLA 499ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2, target=2.0.0.1
+
+2022-10-27 17:15:11,659 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:15:11,659 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:51509, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,51509,10512476298600
+
+2022-10-27 17:15:11,659 INFO send udp packet: 2.0.0.1,51509,10512476298600
+
+2022-10-27 17:15:11,659 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:15:11,660 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:51383, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,51383,10512477118600
+
+2022-10-27 17:15:11,660 INFO send udp packet: 2.0.0.1,51383,10512477118600
+
+2022-10-27 17:15:11,663 INFO [PUSH-SUCC] 4ms, all delay time 562ms, SLA 562ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:15:11,664 INFO [PUSH-SUCC] 4ms, all delay time 562ms, SLA 562ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:15:36,045 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=2}
+
+2022-10-27 17:15:36,047 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=3}
+
+2022-10-27 17:15:36,047 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=4}
+
+2022-10-27 17:15:36,048 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=5}
+
+2022-10-27 17:15:37,378 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=0}
+
+2022-10-27 17:15:37,756 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 17:15:37,756 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:15:37,763 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:49643, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49643,10538574517100
+
+2022-10-27 17:15:37,763 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:49985, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,49985,10538574314600
+
+2022-10-27 17:15:37,763 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:15:37,763 INFO serviceName: DEFAULT_GROUP@@bookservice@@DEFAULT changed, schedule push for: 2.0.0.1:58516, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,58516,10538580446700
+
+2022-10-27 17:15:37,763 INFO send udp packet: 2.0.0.1,49985,10538574314600
+
+2022-10-27 17:15:37,765 INFO send udp packet: 2.0.0.1,49643,10538574517100
+
+2022-10-27 17:15:37,765 INFO send udp packet: 2.0.0.1,58516,10538580446700
+
+2022-10-27 17:15:37,768 INFO [PUSH-SUCC] 20ms, all delay time 587ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=5}, originalSize=1, DataSize=1
+
+2022-10-27 17:15:37,778 INFO [PUSH-SUCC] 30ms, all delay time 573ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-10-27 17:15:37,778 INFO [PUSH-SUCC] 15ms, all delay time 573ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-10-27 17:15:38,490 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:15:38,490 INFO serviceName: DEFAULT_GROUP@@userservice@@DEFAULT changed, schedule push for: 2.0.0.1:51509, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,51509,10539307123800
+
+2022-10-27 17:15:38,490 INFO send udp packet: 2.0.0.1,51509,10539307123800
+
+2022-10-27 17:15:48,497 INFO retry to push data, key: 2.0.0.1,51509,10539307123800
+
+2022-10-27 17:16:15,702 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=2}
+
+2022-10-27 17:16:15,705 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=3}
+
+2022-10-27 17:16:15,705 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=4}
+
+2022-10-27 17:16:15,706 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=5}
+
+2022-10-27 17:16:34,095 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}
+
+2022-10-27 17:16:34,499 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:16:34,508 INFO serviceName: DEFAULT_GROUP@@bookservice@@chongqing changed, schedule push for: 2.0.0.1:56465, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,56465,10595317044200
+
+2022-10-27 17:16:34,509 INFO send udp packet: 2.0.0.1,56465,10595317044200
+
+2022-10-27 17:16:34,531 INFO [PUSH-SUCC] 33ms, all delay time 543ms, SLA 436ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:16:37,589 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}
+
+2022-10-27 17:16:38,098 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:16:38,098 INFO serviceName: DEFAULT_GROUP@@bookservice@@chongqing changed, schedule push for: 2.0.0.1:56465, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,56465,10598914704800
+
+2022-10-27 17:16:38,099 INFO send udp packet: 2.0.0.1,56465,10598914704800
+
+2022-10-27 17:16:38,099 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:16:38,099 INFO serviceName: DEFAULT_GROUP@@bookservice@@guizhou changed, schedule push for: 2.0.0.1:56470, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,56470,10598915567400
+
+2022-10-27 17:16:38,099 INFO send udp packet: 2.0.0.1,56470,10598915567400
+
+2022-10-27 17:16:38,100 INFO [PUSH-SUCC] 2ms, all delay time 597ms, SLA 511ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, originalSize=2, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:16:38,115 INFO [PUSH-SUCC] 16ms, all delay time 612ms, SLA 526ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, originalSize=2, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:16:43,968 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}
+
+2022-10-27 17:16:44,440 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:16:44,440 INFO serviceName: DEFAULT_GROUP@@userservice@@chongqing changed, schedule push for: 2.0.0.1:59662, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,59662,10605257190700
+
+2022-10-27 17:16:44,440 INFO send udp packet: 2.0.0.1,59662,10605257190700
+
+2022-10-27 17:16:44,465 INFO [PUSH-SUCC] 25ms, all delay time 551ms, SLA 497ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:16:45,684 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}
+
+2022-10-27 17:16:46,204 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:16:46,204 INFO serviceName: DEFAULT_GROUP@@userservice@@chongqing changed, schedule push for: 2.0.0.1:59662, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,59662,10607020666300
+
+2022-10-27 17:16:46,204 INFO send udp packet: 2.0.0.1,59662,10607020666300
+
+2022-10-27 17:16:46,205 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:16:46,205 INFO serviceName: DEFAULT_GROUP@@userservice@@guizhou changed, schedule push for: 2.0.0.1:50081, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,50081,10607021593600
+
+2022-10-27 17:16:46,205 INFO send udp packet: 2.0.0.1,50081,10607021593600
+
+2022-10-27 17:16:46,206 INFO [PUSH-SUCC] 2ms, all delay time 576ms, SLA 522ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, originalSize=2, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:16:46,220 INFO [PUSH-SUCC] 16ms, all delay time 590ms, SLA 536ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, originalSize=2, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:16:48,231 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=7}
+
+2022-10-27 17:16:48,760 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 17:16:48,760 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:50086, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,50086,10609577109600
+
+2022-10-27 17:16:48,760 INFO send udp packet: 2.0.0.1,50086,10609577109600
+
+2022-10-27 17:16:48,765 INFO [PUSH-SUCC] 5ms, all delay time 601ms, SLA 534ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=7}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:20:07,463 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:20:07,465 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:50086, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,50086,10808280107400
+
+2022-10-27 17:20:07,465 INFO send udp packet: 2.0.0.1,50086,10808280107400
+
+2022-10-27 17:20:07,468 INFO [PUSH-SUCC] 5ms, all delay time 582ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2
+
+2022-10-27 17:20:07,674 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:20:07,675 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:50086, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,50086,10808490770900
+
+2022-10-27 17:20:07,675 INFO send udp packet: 2.0.0.1,50086,10808490770900
+
+2022-10-27 17:20:07,677 INFO [PUSH-SUCC] 3ms, all delay time 565ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2
+
+2022-10-27 17:26:38,746 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 17:26:38,747 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:50086, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,50086,11199563573100
+
+2022-10-27 17:26:38,747 INFO send udp packet: 2.0.0.1,50086,11199563573100
+
+2022-10-27 17:26:38,750 INFO [PUSH-SUCC] 4ms, all delay time 520ms, SLA 520ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=8}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:26:49,121 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=9}
+
+2022-10-27 17:26:49,648 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 17:26:49,648 INFO serviceName: DEFAULT_GROUP@@borrowservice@@DEFAULT changed, schedule push for: 2.0.0.1:50086, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,50086,11210464854700
+
+2022-10-27 17:26:49,648 INFO send udp packet: 2.0.0.1,50086,11210464854700
+
+2022-10-27 17:26:49,648 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 17:26:49,648 INFO serviceName: DEFAULT_GROUP@@borrowservice@@guizhou changed, schedule push for: 2.0.0.1:61536, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,61536,11210465332100
+
+2022-10-27 17:26:49,648 INFO send udp packet: 2.0.0.1,61536,11210465332100
+
+2022-10-27 17:26:49,663 INFO [PUSH-SUCC] 14ms, all delay time 602ms, SLA 541ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=9}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:26:57,071 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:26:57,071 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:26:57,071 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:61536, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,61536,11217888000700
+
+2022-10-27 17:26:57,071 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:61536, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,61536,11217888033300
+
+2022-10-27 17:26:57,071 INFO send udp packet: 2.0.0.1,61536,11217888000700
+
+2022-10-27 17:26:57,072 INFO send udp packet: 2.0.0.1,61536,11217888033300
+
+2022-10-27 17:26:57,074 INFO [PUSH-SUCC] 3ms, all delay time 607ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2
+
+2022-10-27 17:26:57,075 INFO [PUSH-SUCC] 4ms, all delay time 552ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2
+
+2022-10-27 17:26:59,650 INFO retry to push data, key: 2.0.0.1,50086,11210464854700
+
+2022-10-27 17:27:09,664 WARN max re-push times reached, retry times 2, key: 2.0.0.1,50086,11210464854700
+
+2022-10-27 17:27:09,664 ERROR [PUSH-FAIL] 20016ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=9}, reason=null, target=2.0.0.1
+
+2022-10-27 17:30:06,762 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=4}
+
+2022-10-27 17:30:06,861 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=4}
+
+2022-10-27 17:30:07,306 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:30:07,306 INFO serviceName: DEFAULT_GROUP@@bookservice@@chongqing changed, schedule push for: 2.0.0.1:56465, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,56465,11408122736500
+
+2022-10-27 17:30:07,306 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:30:07,306 INFO send udp packet: 2.0.0.1,56465,11408122736500
+
+2022-10-27 17:30:07,306 INFO serviceName: DEFAULT_GROUP@@bookservice@@guizhou changed, schedule push for: 2.0.0.1:56470, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,56470,11408122971800
+
+2022-10-27 17:30:07,306 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:30:07,306 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:61536, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,61536,11408123323300
+
+2022-10-27 17:30:07,307 INFO send udp packet: 2.0.0.1,56470,11408122971800
+
+2022-10-27 17:30:07,307 INFO send udp packet: 2.0.0.1,61536,11408123323300
+
+2022-10-27 17:30:07,309 INFO [PUSH-SUCC] 3ms, all delay time 606ms, SLA 547ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 17:30:07,310 INFO [PUSH-SUCC] 4ms, all delay time 607ms, SLA 548ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 17:30:07,310 INFO [PUSH-SUCC] 4ms, all delay time 607ms, SLA 548ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 17:30:07,407 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:30:07,407 INFO serviceName: DEFAULT_GROUP@@userservice@@chongqing changed, schedule push for: 2.0.0.1:59662, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,59662,11408223911700
+
+2022-10-27 17:30:07,407 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:30:07,407 INFO send udp packet: 2.0.0.1,59662,11408223911700
+
+2022-10-27 17:30:07,407 INFO serviceName: DEFAULT_GROUP@@userservice@@guizhou changed, schedule push for: 2.0.0.1:50081, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,50081,11408224198900
+
+2022-10-27 17:30:07,408 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:30:07,408 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:61536, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,61536,11408224676600
+
+2022-10-27 17:30:07,408 INFO send udp packet: 2.0.0.1,50081,11408224198900
+
+2022-10-27 17:30:07,408 INFO send udp packet: 2.0.0.1,61536,11408224676600
+
+2022-10-27 17:30:07,411 INFO [PUSH-SUCC] 4ms, all delay time 586ms, SLA 550ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 17:30:07,411 INFO [PUSH-SUCC] 4ms, all delay time 586ms, SLA 550ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 17:30:07,412 INFO [PUSH-SUCC] 4ms, all delay time 587ms, SLA 551ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 17:30:10,357 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 17:30:10,357 INFO serviceName: DEFAULT_GROUP@@borrowservice@@guizhou changed, schedule push for: 2.0.0.1:61536, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,61536,11411173867600
+
+2022-10-27 17:30:10,357 INFO send udp packet: 2.0.0.1,61536,11411173867600
+
+2022-10-27 17:30:10,362 INFO [PUSH-SUCC] 5ms, all delay time 596ms, SLA 596ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=10}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:30:57,918 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=2}
+
+2022-10-27 17:30:57,922 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=3}
+
+2022-10-27 17:30:57,923 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=4}
+
+2022-10-27 17:30:57,925 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=5}
+
+2022-10-27 17:30:57,926 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=6}
+
+2022-10-27 17:30:57,927 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=7}
+
+2022-10-27 17:30:57,929 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=8}
+
+2022-10-27 17:30:57,931 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=9}
+
+2022-10-27 17:30:57,932 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=10}
+
+2022-10-27 17:31:01,437 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}
+
+2022-10-27 17:31:01,701 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:31:01,717 INFO serviceName: DEFAULT_GROUP@@bookservice@@chongqing changed, schedule push for: 2.0.0.1:62662, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62662,11462518916700
+
+2022-10-27 17:31:01,718 INFO send udp packet: 2.0.0.1,62662,11462518916700
+
+2022-10-27 17:31:01,762 INFO [PUSH-SUCC] 63ms, all delay time 585ms, SLA 325ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:31:10,739 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}
+
+2022-10-27 17:31:11,191 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:31:11,191 INFO serviceName: DEFAULT_GROUP@@bookservice@@chongqing changed, schedule push for: 2.0.0.1:62662, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62662,11472007677100
+
+2022-10-27 17:31:11,191 INFO send udp packet: 2.0.0.1,62662,11472007677100
+
+2022-10-27 17:31:11,191 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:31:11,192 INFO serviceName: DEFAULT_GROUP@@bookservice@@guizhou changed, schedule push for: 2.0.0.1:62691, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62691,11472008527400
+
+2022-10-27 17:31:11,192 INFO send udp packet: 2.0.0.1,62691,11472008527400
+
+2022-10-27 17:31:11,193 INFO [PUSH-SUCC] 2ms, all delay time 525ms, SLA 454ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, originalSize=2, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:31:11,212 INFO [PUSH-SUCC] 21ms, all delay time 544ms, SLA 473ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, originalSize=2, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:31:14,090 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}
+
+2022-10-27 17:31:14,597 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:31:14,598 INFO serviceName: DEFAULT_GROUP@@userservice@@chongqing changed, schedule push for: 2.0.0.1:62692, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62692,11475414150800
+
+2022-10-27 17:31:14,598 INFO send udp packet: 2.0.0.1,62692,11475414150800
+
+2022-10-27 17:31:14,617 INFO [PUSH-SUCC] 20ms, all delay time 605ms, SLA 527ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:31:18,201 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}
+
+2022-10-27 17:31:18,663 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:31:18,663 INFO serviceName: DEFAULT_GROUP@@userservice@@guizhou changed, schedule push for: 2.0.0.1:51097, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,51097,11479480211000
+
+2022-10-27 17:31:18,664 INFO send udp packet: 2.0.0.1,51097,11479480211000
+
+2022-10-27 17:31:18,664 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:31:18,664 INFO serviceName: DEFAULT_GROUP@@userservice@@chongqing changed, schedule push for: 2.0.0.1:62692, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62692,11479481188700
+
+2022-10-27 17:31:18,664 INFO send udp packet: 2.0.0.1,62692,11479481188700
+
+2022-10-27 17:31:18,666 INFO [PUSH-SUCC] 2ms, all delay time 531ms, SLA 465ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, originalSize=2, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:31:18,680 INFO [PUSH-SUCC] 17ms, all delay time 545ms, SLA 479ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, originalSize=2, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:31:20,527 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=11}
+
+2022-10-27 17:31:20,967 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 17:31:20,967 INFO serviceName: DEFAULT_GROUP@@borrowservice@@guizhou changed, schedule push for: 2.0.0.1:62424, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62424,11481783602800
+
+2022-10-27 17:31:20,967 INFO send udp packet: 2.0.0.1,62424,11481783602800
+
+2022-10-27 17:31:20,972 INFO [PUSH-SUCC] 5ms, all delay time 532ms, SLA 445ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=11}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:32:00,938 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:32:00,939 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:62424, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62424,11521755248800
+
+2022-10-27 17:32:00,940 INFO send udp packet: 2.0.0.1,62424,11521755248800
+
+2022-10-27 17:32:00,942 INFO [PUSH-SUCC] 4ms, all delay time 599ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2
+
+2022-10-27 17:32:01,155 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:32:01,155 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:62424, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62424,11521971537300
+
+2022-10-27 17:32:01,155 INFO send udp packet: 2.0.0.1,62424,11521971537300
+
+2022-10-27 17:32:01,157 INFO [PUSH-SUCC] 2ms, all delay time 600ms for subscriber 2.0.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2
+
+2022-10-27 17:34:04,666 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-27 17:34:04,667 INFO serviceName: DEFAULT_GROUP@@borrowservice@@guizhou changed, schedule push for: 2.0.0.1:62424, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62424,11645483773000
+
+2022-10-27 17:34:04,667 INFO send udp packet: 2.0.0.1,62424,11645483773000
+
+2022-10-27 17:34:04,670 INFO [PUSH-SUCC] 4ms, all delay time 609ms, SLA 609ms, Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=12}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:36:26,782 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:36:26,782 INFO serviceName: DEFAULT_GROUP@@bookservice@@chongqing changed, schedule push for: 2.0.0.1:62662, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62662,11787599017500
+
+2022-10-27 17:36:26,782 INFO send udp packet: 2.0.0.1,62662,11787599017500
+
+2022-10-27 17:36:26,782 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:36:26,783 INFO serviceName: DEFAULT_GROUP@@bookservice@@guizhou changed, schedule push for: 2.0.0.1:62691, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62691,11787599526600
+
+2022-10-27 17:36:26,783 INFO send udp packet: 2.0.0.1,62691,11787599526600
+
+2022-10-27 17:36:26,784 INFO [PUSH-SUCC] 2ms, all delay time 599ms, SLA 599ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:36:26,785 INFO [PUSH-SUCC] 3ms, all delay time 600ms, SLA 600ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=3}, originalSize=1, DataSize=0, target=2.0.0.1
+
+2022-10-27 17:36:35,164 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:36:35,164 INFO serviceName: DEFAULT_GROUP@@bookservice@@chongqing changed, schedule push for: 2.0.0.1:62662, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62662,11795981404900
+
+2022-10-27 17:36:35,165 INFO send udp packet: 2.0.0.1,62662,11795981404900
+
+2022-10-27 17:36:35,165 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-27 17:36:35,165 INFO serviceName: DEFAULT_GROUP@@bookservice@@guizhou changed, schedule push for: 2.0.0.1:62691, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62691,11795982373700
+
+2022-10-27 17:36:35,165 INFO send udp packet: 2.0.0.1,62691,11795982373700
+
+2022-10-27 17:36:35,169 INFO [PUSH-SUCC] 4ms, all delay time 583ms, SLA 583ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 17:36:44,220 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:36:44,220 INFO serviceName: DEFAULT_GROUP@@userservice@@guizhou changed, schedule push for: 2.0.0.1:51097, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,51097,11805037433900
+
+2022-10-27 17:36:44,221 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:36:44,221 INFO send udp packet: 2.0.0.1,51097,11805037433900
+
+2022-10-27 17:36:44,221 INFO serviceName: DEFAULT_GROUP@@userservice@@chongqing changed, schedule push for: 2.0.0.1:62692, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62692,11805037921900
+
+2022-10-27 17:36:44,221 INFO send udp packet: 2.0.0.1,62692,11805037921900
+
+2022-10-27 17:36:44,222 INFO [PUSH-SUCC] 2ms, all delay time 550ms, SLA 550ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-27 17:36:44,223 INFO [PUSH-SUCC] 3ms, all delay time 551ms, SLA 551ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=3}, originalSize=1, DataSize=0, target=2.0.0.1
+
+2022-10-27 17:36:45,167 INFO retry to push data, key: 2.0.0.1,62662,11795981404900
+
+2022-10-27 17:36:50,492 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:36:50,492 INFO serviceName: DEFAULT_GROUP@@userservice@@guizhou changed, schedule push for: 2.0.0.1:51097, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,51097,11811308964900
+
+2022-10-27 17:36:50,492 INFO send udp packet: 2.0.0.1,51097,11811308964900
+
+2022-10-27 17:36:50,492 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-27 17:36:50,492 INFO serviceName: DEFAULT_GROUP@@userservice@@chongqing changed, schedule push for: 2.0.0.1:62692, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62692,11811309539000
+
+2022-10-27 17:36:50,492 INFO send udp packet: 2.0.0.1,62692,11811309539000
+
+2022-10-27 17:36:50,492 INFO [PUSH-SUCC] 0ms, all delay time 565ms, SLA 565ms, Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-27 17:36:55,194 WARN max re-push times reached, retry times 2, key: 2.0.0.1,62662,11795981404900
+
+2022-10-27 17:36:55,194 ERROR [PUSH-FAIL] 20030ms, Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=4}, reason=null, target=2.0.0.1
+

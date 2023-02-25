@@ -1,0 +1,12 @@
+#配置mybatis
+mybatis-plus:
+  #启动bean实体类简化写法
+  type-aliases-package: com.example.sstest.bean
+  mapper-locations: classpath:mapper/*.xml
+  #  config-location: classpath:mybatis/mybatis-config.xml
+  #注意有了configuration配置，就不能配置config-location了
+  configuration: #指定mybatis的全局配置
+    # 配置驼峰命名 自动注入
+    map-underscore-to-camel-case: true
+  global-config:
+    banner: false

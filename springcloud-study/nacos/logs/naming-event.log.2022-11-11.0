@@ -1,0 +1,4 @@
+2022-11-03 16:41:50,861 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8883@DEFAULT@book-service, region: unknown, msg: client last beat: 1667464796801
+
+2022-11-11 22:51:29,461 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+

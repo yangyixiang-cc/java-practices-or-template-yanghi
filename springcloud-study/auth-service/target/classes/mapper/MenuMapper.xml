@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yanghi.study.mapper.MenuMapper">
+
+    <select id="selectPermsByUserId" resultType="java.lang.String">
+        select DISTINCT sm.perms
+        from sys_user_role sur
+                 LEFT JOIN sys_role sr on sur.role_id = sr.id
+                 LEFT JOIN sys_role_menu srm on sur.role_id = srm.role_id
+                 LEFT JOIN sys_menu sm on sm.id = srm.menu_id
+        where sur.user_id = #{userid}
+          and sr.`status` = 0
+          AND sm.`status` = 0
+    </select>
+</mapper>

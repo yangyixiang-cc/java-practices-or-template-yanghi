@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: userservice
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml # mapper映射文件路径
+  type-aliases-package: com.yanghi.study.bean # 配置具体包下类具有默认别名

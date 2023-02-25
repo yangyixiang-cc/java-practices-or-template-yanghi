@@ -1,0 +1,78 @@
+2022-10-28 10:52:50,624 INFO Initializes the Raft protocol, raft-config info : {}
+
+2022-10-28 10:52:50,787 INFO ========= The raft protocol is starting... =========
+
+2022-10-28 10:52:50,815 INFO ========= The raft protocol start finished... =========
+
+2022-10-28 10:52:50,832 INFO create raft group : naming_persistent_service_v2
+
+2022-10-28 10:52:51,152 INFO snapshot start to load from : E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_6
+
+2022-10-28 10:52:51,178 INFO [SNAPSHOT-LOAD] service=Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, instance=InstancePublishInfo{ip='192.168.56.1', port=8082, healthy=true, cluster='DEFAULT'}
+
+2022-10-28 10:52:51,178 INFO snapshot success to load from : E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_6
+
+2022-10-28 10:52:51,180 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='null', term=null, raftClusterInfo=[192.168.56.1:7848]}
+
+2022-10-28 10:52:51,246 INFO create raft group : naming_instance_metadata
+
+2022-10-28 10:52:51,264 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='192.168.56.1:7848', term=7, raftClusterInfo=[192.168.56.1:7848]}
+
+2022-10-28 10:52:51,284 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='null', term=null, raftClusterInfo=[192.168.56.1:7848]}
+
+2022-10-28 10:52:51,291 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='192.168.56.1:7848', term=7, raftClusterInfo=[192.168.56.1:7848]}
+
+2022-10-28 10:52:51,293 INFO create raft group : naming_service_metadata
+
+2022-10-28 10:52:51,330 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='null', term=null, raftClusterInfo=[192.168.56.1:7848]}
+
+2022-10-28 10:52:51,337 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='192.168.56.1:7848', term=7, raftClusterInfo=[192.168.56.1:7848]}
+
+2022-10-28 11:07:42,743 INFO Client registered. service=Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, clientId=Instance{instanceId='192.168.56.1#8082#guizhou#DEFAULT_GROUP@@borrowservice', ip='192.168.56.1', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=false, clusterName='guizhou', serviceName='DEFAULT_GROUP@@borrowservice', metadata={preserved.register.source=SPRING_CLOUD}}, instance=192.168.56.1:8082#false
+
+2022-10-28 11:46:38,484 INFO Client registered. service=Service{namespace='prod', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=1}, clientId=Instance{instanceId='192.168.56.1#8082#guizhou#DEFAULT_GROUP@@borrowservice', ip='192.168.56.1', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=false, clusterName='guizhou', serviceName='DEFAULT_GROUP@@borrowservice', metadata={preserved.register.source=SPRING_CLOUD}}, instance=192.168.56.1:8082#false
+
+2022-10-28 11:50:36,312 INFO Client registered. service=Service{namespace='fd569e3c-8d38-4b7f-91da-57bb840e337d', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=1}, clientId=Instance{instanceId='192.168.56.1#8082#guizhou#DEFAULT_GROUP@@borrowservice', ip='192.168.56.1', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=false, clusterName='guizhou', serviceName='DEFAULT_GROUP@@borrowservice', metadata={preserved.register.source=SPRING_CLOUD}}, instance=192.168.56.1:8082#false
+
+2022-10-28 11:55:23,594 INFO Client registered. service=Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=1}, clientId=Instance{instanceId='192.168.56.1#8082#guizhou#DEFAULT_GROUP@@borrowservice', ip='192.168.56.1', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=false, clusterName='guizhou', serviceName='DEFAULT_GROUP@@borrowservice', metadata={preserved.register.source=SPRING_CLOUD}}, instance=192.168.56.1:8082#false
+
+2022-10-28 12:26:47,456 INFO Client registered. service=Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, clientId=Instance{instanceId='192.168.56.1#8082#guizhou#DEFAULT_GROUP@@borrowservice', ip='192.168.56.1', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=false, clusterName='guizhou', serviceName='DEFAULT_GROUP@@borrowservice', metadata={preserved.register.source=SPRING_CLOUD}}, instance=192.168.56.1:8082#false
+
+2022-10-28 12:40:36,588 INFO Initializes the Raft protocol, raft-config info : {}
+
+2022-10-28 12:40:36,729 INFO ========= The raft protocol is starting... =========
+
+2022-10-28 12:40:36,756 INFO ========= The raft protocol start finished... =========
+
+2022-10-28 12:40:36,772 INFO create raft group : naming_persistent_service_v2
+
+2022-10-28 12:40:37,045 INFO snapshot start to load from : E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_42
+
+2022-10-28 12:40:37,070 INFO [SNAPSHOT-LOAD] service=Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, instance=InstancePublishInfo{ip='192.168.56.1', port=8082, healthy=false, cluster='guizhou'}
+
+2022-10-28 12:40:37,070 INFO [SNAPSHOT-LOAD] service=Service{namespace='fd569e3c-8d38-4b7f-91da-57bb840e337d', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, instance=InstancePublishInfo{ip='192.168.56.1', port=8082, healthy=true, cluster='guizhou'}
+
+2022-10-28 12:40:37,070 INFO [SNAPSHOT-LOAD] service=Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, instance=InstancePublishInfo{ip='192.168.56.1', port=8082, healthy=true, cluster='guizhou'}
+
+2022-10-28 12:40:37,070 INFO [SNAPSHOT-LOAD] service=Service{namespace='prod', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, instance=InstancePublishInfo{ip='192.168.56.1', port=8082, healthy=true, cluster='guizhou'}
+
+2022-10-28 12:40:37,070 INFO snapshot success to load from : E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_42
+
+2022-10-28 12:40:37,072 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='null', term=null, raftClusterInfo=[192.168.56.1:7848]}
+
+2022-10-28 12:40:37,132 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='192.168.56.1:7848', term=8, raftClusterInfo=[192.168.56.1:7848]}
+
+2022-10-28 12:40:37,139 INFO create raft group : naming_instance_metadata
+
+2022-10-28 12:40:37,178 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='null', term=null, raftClusterInfo=[192.168.56.1:7848]}
+
+2022-10-28 12:40:37,185 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='192.168.56.1:7848', term=8, raftClusterInfo=[192.168.56.1:7848]}
+
+2022-10-28 12:40:37,186 INFO create raft group : naming_service_metadata
+
+2022-10-28 12:40:37,220 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='null', term=null, raftClusterInfo=[192.168.56.1:7848]}
+
+2022-10-28 12:40:37,225 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='192.168.56.1:7848', term=8, raftClusterInfo=[192.168.56.1:7848]}
+
+2022-10-28 12:41:14,622 INFO Client registered. service=Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, clientId=Instance{instanceId='192.168.56.1#8082#guizhou#DEFAULT_GROUP@@borrowservice', ip='192.168.56.1', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=false, clusterName='guizhou', serviceName='DEFAULT_GROUP@@borrowservice', metadata={preserved.register.source=SPRING_CLOUD}}, instance=192.168.56.1:8082#false
+

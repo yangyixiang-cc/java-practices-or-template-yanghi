@@ -1,0 +1,14 @@
+
+g
+java:S3008"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÔôù
+m
+java:S1128"WRemove this unused import 'org.springframework.http.server.reactive.ServerHttpRequest'.(‘ƒˆ­
+c
+java:S1128
+"ARemove this unused import 'org.springframework.util.Base64Utils'.(É®©ûÿÿÿÿ8ß¯±ÚÆ0
+K
+java:S1128"5Remove this unused import 'java.text.ParseException'.(ñ®ï•
+C
+java:S1128"-Remove this unused import 'java.util.Base64'.(ëŠ»Õ
+@
+java:S1068"*Remove this unused "LOGGER" private field.(ÎÔôù

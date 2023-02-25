@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yanghi.study.mapper.UserMapper">
+    <select id="getUserById" resultType="com.yanghi.study.bean.User">
+        select `uid`, `name`, `age`, `sex` from db_user where uid = #{uid}
+    </select>
+    <select id="getUserBookRemain" resultType="java.lang.Integer">
+        select book_count from DB_USER where uid = #{uid}
+    </select>
+    <update id="updateBookCount">
+        update DB_USER set book_count = #{count} where uid = #{uid}
+    </update>
+</mapper>

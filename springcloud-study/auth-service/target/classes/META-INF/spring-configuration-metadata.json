@@ -1,0 +1,54 @@
+{
+  "groups": [
+    {
+      "name": "client.oauth2",
+      "type": "com.yanghi.study.config.ClientOAuth2DataConfiguration",
+      "sourceType": "com.yanghi.study.config.ClientOAuth2DataConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "client.oauth2.client-id",
+      "type": "java.lang.String",
+      "description": "客户端标识ID",
+      "sourceType": "com.yanghi.study.config.ClientOAuth2DataConfiguration"
+    },
+    {
+      "name": "client.oauth2.grant-types",
+      "type": "java.lang.String[]",
+      "description": "授权类型",
+      "sourceType": "com.yanghi.study.config.ClientOAuth2DataConfiguration"
+    },
+    {
+      "name": "client.oauth2.refresh-token-validity-time",
+      "type": "java.lang.Integer",
+      "description": "refresh-token有效期",
+      "sourceType": "com.yanghi.study.config.ClientOAuth2DataConfiguration"
+    },
+    {
+      "name": "client.oauth2.scopes",
+      "type": "java.lang.String[]",
+      "description": "客户端访问范围",
+      "sourceType": "com.yanghi.study.config.ClientOAuth2DataConfiguration"
+    },
+    {
+      "name": "client.oauth2.secret",
+      "type": "java.lang.String",
+      "description": "客户端安全码",
+      "sourceType": "com.yanghi.study.config.ClientOAuth2DataConfiguration"
+    },
+    {
+      "name": "client.oauth2.signing-key",
+      "type": "java.lang.String",
+      "description": "对称密钥",
+      "sourceType": "com.yanghi.study.config.ClientOAuth2DataConfiguration"
+    },
+    {
+      "name": "client.oauth2.token-validity-time",
+      "type": "java.lang.Integer",
+      "description": "token有效期",
+      "sourceType": "com.yanghi.study.config.ClientOAuth2DataConfiguration"
+    }
+  ],
+  "hints": []
+}

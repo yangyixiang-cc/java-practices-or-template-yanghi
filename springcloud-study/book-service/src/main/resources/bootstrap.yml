@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: book-service
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        file-extension: yml
+        server-addr: localhost:8848
+        namespace: 1be9f79e-8b49-4f95-8aca-e16eece431b6

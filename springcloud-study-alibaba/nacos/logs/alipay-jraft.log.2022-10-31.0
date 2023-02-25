@@ -1,0 +1,156 @@
+2022-10-31 10:32:43,263 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2022-10-31 10:32:43,376 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2022-10-31 10:32:43,565 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2022-10-31 10:32:43,570 INFO The number of active nodes increment to 1.
+
+2022-10-31 10:32:43,863 INFO Starts FSMCaller successfully.
+
+2022-10-31 10:32:43,881 INFO Loading snapshot, meta=last_included_index: 223
+last_included_term: 10
+peers: "192.168.56.1:7848"
+.
+
+2022-10-31 10:32:44,075 INFO Node <naming_persistent_service_v2/192.168.56.1:7848> onSnapshotLoadDone, last_included_index: 223
+last_included_term: 10
+peers: "192.168.56.1:7848"
+
+
+2022-10-31 10:32:44,077 INFO Node <naming_persistent_service_v2/192.168.56.1:7848> target priority value has changed from: 0, to: -1.
+
+2022-10-31 10:32:44,106 INFO Node <naming_persistent_service_v2/192.168.56.1:7848> init, term=10, lastLogId=LogId [index=225, term=10], conf=192.168.56.1:7848, oldConf=.
+
+2022-10-31 10:32:44,109 INFO Node <naming_persistent_service_v2/192.168.56.1:7848> start vote and grant vote self, term=10.
+
+2022-10-31 10:32:44,131 WARN Unable to fsync directory E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2022-10-31 10:32:44,132 INFO Save raft meta, path=E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=11, votedFor=192.168.56.1:7848, cost time=18 ms
+
+2022-10-31 10:32:44,133 INFO Node <naming_persistent_service_v2/192.168.56.1:7848> become leader of group, term=11, conf=192.168.56.1:7848, oldConf=.
+
+2022-10-31 10:32:44,136 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2022-10-31 10:32:44,139 WARN RPC server is not started in RaftGroupService.
+
+2022-10-31 10:32:44,140 INFO Start the RaftGroupService successfully.
+
+2022-10-31 10:32:44,169 INFO The number of active nodes increment to 2.
+
+2022-10-31 10:32:44,190 INFO onLeaderStart: term=11.
+
+2022-10-31 10:32:44,234 INFO Starts FSMCaller successfully.
+
+2022-10-31 10:32:44,235 INFO Loading snapshot, meta=last_included_index: 14
+last_included_term: 10
+peers: "192.168.56.1:7848"
+.
+
+2022-10-31 10:32:44,240 INFO Node <naming_instance_metadata/192.168.56.1:7848> onSnapshotLoadDone, last_included_index: 14
+last_included_term: 10
+peers: "192.168.56.1:7848"
+
+
+2022-10-31 10:32:44,241 INFO Node <naming_instance_metadata/192.168.56.1:7848> target priority value has changed from: 0, to: -1.
+
+2022-10-31 10:32:44,243 INFO Node <naming_instance_metadata/192.168.56.1:7848> init, term=10, lastLogId=LogId [index=14, term=10], conf=192.168.56.1:7848, oldConf=.
+
+2022-10-31 10:32:44,244 INFO Node <naming_instance_metadata/192.168.56.1:7848> start vote and grant vote self, term=10.
+
+2022-10-31 10:32:44,248 WARN Unable to fsync directory E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2022-10-31 10:32:44,248 INFO Save raft meta, path=E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=11, votedFor=192.168.56.1:7848, cost time=4 ms
+
+2022-10-31 10:32:44,248 INFO Node <naming_instance_metadata/192.168.56.1:7848> become leader of group, term=11, conf=192.168.56.1:7848, oldConf=.
+
+2022-10-31 10:32:44,248 WARN RPC server is not started in RaftGroupService.
+
+2022-10-31 10:32:44,248 INFO Start the RaftGroupService successfully.
+
+2022-10-31 10:32:44,252 INFO onLeaderStart: term=11.
+
+2022-10-31 10:32:44,256 INFO The number of active nodes increment to 3.
+
+2022-10-31 10:32:44,279 WARN Channel in TRANSIENT_FAILURE state: 192.168.56.1:7848.
+
+2022-10-31 10:32:44,280 WARN Channel in SHUTDOWN state: 192.168.56.1:7848.
+
+2022-10-31 10:32:44,317 INFO Starts FSMCaller successfully.
+
+2022-10-31 10:32:44,318 INFO Loading snapshot, meta=last_included_index: 10
+last_included_term: 10
+peers: "192.168.56.1:7848"
+.
+
+2022-10-31 10:32:44,320 INFO Node <naming_service_metadata/192.168.56.1:7848> onSnapshotLoadDone, last_included_index: 10
+last_included_term: 10
+peers: "192.168.56.1:7848"
+
+
+2022-10-31 10:32:44,321 INFO Node <naming_service_metadata/192.168.56.1:7848> target priority value has changed from: 0, to: -1.
+
+2022-10-31 10:32:44,322 INFO Node <naming_service_metadata/192.168.56.1:7848> init, term=10, lastLogId=LogId [index=10, term=10], conf=192.168.56.1:7848, oldConf=.
+
+2022-10-31 10:32:44,323 INFO Node <naming_service_metadata/192.168.56.1:7848> start vote and grant vote self, term=10.
+
+2022-10-31 10:32:44,327 WARN Unable to fsync directory E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2022-10-31 10:32:44,327 INFO Save raft meta, path=E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=11, votedFor=192.168.56.1:7848, cost time=4 ms
+
+2022-10-31 10:32:44,327 INFO Node <naming_service_metadata/192.168.56.1:7848> become leader of group, term=11, conf=192.168.56.1:7848, oldConf=.
+
+2022-10-31 10:32:44,328 WARN RPC server is not started in RaftGroupService.
+
+2022-10-31 10:32:44,328 INFO Start the RaftGroupService successfully.
+
+2022-10-31 10:32:44,331 INFO onLeaderStart: term=11.
+
+2022-10-31 10:50:37,641 WARN Unable to fsync directory E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
+
+2022-10-31 10:50:37,641 INFO Deleting snapshot E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_232.
+
+2022-10-31 10:50:37,641 INFO Renaming E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_232.
+
+2022-10-31 10:50:37,641 INFO Deleting snapshot E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_223.
+
+2022-10-31 10:58:19,400 WARN Unable to fsync directory E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp on windows.
+
+2022-10-31 10:58:19,400 INFO Deleting snapshot E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_15.
+
+2022-10-31 10:58:19,401 INFO Renaming E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp to E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_15.
+
+2022-10-31 10:58:19,401 INFO Deleting snapshot E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_14.
+
+2022-10-31 10:59:37,077 WARN Unable to fsync directory E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp on windows.
+
+2022-10-31 10:59:37,077 INFO Deleting snapshot E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_11.
+
+2022-10-31 10:59:37,077 INFO Renaming E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp to E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_11.
+
+2022-10-31 10:59:37,077 INFO Deleting snapshot E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_10.
+
+2022-10-31 11:20:37,633 WARN Unable to fsync directory E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
+
+2022-10-31 11:20:37,633 INFO Deleting snapshot E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_248.
+
+2022-10-31 11:20:37,633 INFO Renaming E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_248.
+
+2022-10-31 11:20:37,634 INFO Deleting snapshot E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_232.
+
+2022-10-31 11:50:37,654 WARN Unable to fsync directory E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
+
+2022-10-31 11:50:37,654 INFO Deleting snapshot E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_271.
+
+2022-10-31 11:50:37,654 INFO Renaming E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_271.
+
+2022-10-31 11:50:37,655 INFO Deleting snapshot E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_248.
+
+2022-10-31 14:20:37,519 WARN Unable to fsync directory E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
+
+2022-10-31 14:20:37,519 INFO Deleting snapshot E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_275.
+
+2022-10-31 14:20:37,519 INFO Renaming E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_275.
+
+2022-10-31 14:20:37,519 INFO Deleting snapshot E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_271.
+

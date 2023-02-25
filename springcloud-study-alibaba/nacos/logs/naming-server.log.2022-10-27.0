@@ -1,0 +1,912 @@
+2022-10-27 12:35:44,444 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-10-27 12:35:44,445 WARN Using naming.distro config to replace core.distro config
+
+2022-10-27 12:35:44,576 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-10-27 12:35:44,577 INFO listen for service meta change
+
+2022-10-27 12:35:44,582 INFO upgrade.state file is not exist
+
+2022-10-27 12:35:47,872 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-10-27 12:35:47,872 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-10-27 12:35:47,873 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-10-27 12:35:47,873 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-10-27 12:36:25,715 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-10-27 12:36:25,715 WARN Using naming.distro config to replace core.distro config
+
+2022-10-27 12:36:25,801 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-10-27 12:36:25,801 INFO listen for service meta change
+
+2022-10-27 12:36:28,058 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-10-27 12:36:28,058 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-10-27 12:36:28,059 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-10-27 12:36:28,059 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-10-27 12:42:12,092 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-10-27 12:42:12,092 WARN Using naming.distro config to replace core.distro config
+
+2022-10-27 12:42:12,210 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-10-27 12:42:12,211 INFO listen for service meta change
+
+2022-10-27 12:42:14,422 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-10-27 12:42:14,422 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-10-27 12:42:14,422 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-10-27 12:42:14,422 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-10-27 12:42:14,979 INFO Load instance extension handler []
+
+2022-10-27 13:05:17,442 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-10-27 13:05:17,442 WARN Using naming.distro config to replace core.distro config
+
+2022-10-27 13:05:17,545 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-10-27 13:05:17,546 INFO listen for service meta change
+
+2022-10-27 13:09:22,684 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-10-27 13:09:22,684 WARN Using naming.distro config to replace core.distro config
+
+2022-10-27 13:09:22,773 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-10-27 13:09:22,774 INFO listen for service meta change
+
+2022-10-27 13:09:25,154 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-10-27 13:09:25,154 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-10-27 13:09:25,154 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-10-27 13:09:25,154 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-10-27 13:09:25,896 INFO Load instance extension handler []
+
+2022-10-27 13:22:14,186 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2022-10-27 13:22:14,197 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2022-10-27 14:49:54,008 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-10-27 14:49:54,008 WARN Using naming.distro config to replace core.distro config
+
+2022-10-27 14:49:54,141 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-10-27 14:49:54,142 INFO listen for service meta change
+
+2022-10-27 14:49:57,415 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-10-27 14:49:57,415 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-10-27 14:49:57,416 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-10-27 14:49:57,416 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-10-27 14:49:58,115 INFO Load instance extension handler []
+
+2022-10-27 14:49:59,498 INFO Client connection 2.0.0.1:54117#true connect
+
+2022-10-27 14:49:59,598 INFO Client connection 192.168.56.1:8883#true connect
+
+2022-10-27 14:49:59,599 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=0}, 192.168.56.1:8883#true
+
+2022-10-27 14:55:41,435 INFO Client connection 2.0.0.1:62560#true connect
+
+2022-10-27 14:55:41,489 INFO Client connection 192.168.56.1:8082#true connect
+
+2022-10-27 14:55:41,490 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=0}, 192.168.56.1:8082#true
+
+2022-10-27 14:55:44,531 INFO Client connection 2.0.0.1:62565#true connect
+
+2022-10-27 14:55:44,580 INFO Client connection 192.168.56.1:8881#true connect
+
+2022-10-27 14:55:44,580 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=0}, 192.168.56.1:8881#true
+
+2022-10-27 15:11:10,284 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=1}, 192.168.56.1:8082#true
+
+2022-10-27 15:11:30,956 INFO Client connection 2.0.0.1:60969#true connect
+
+2022-10-27 15:11:31,009 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=2}, 192.168.56.1:8082#true
+
+2022-10-27 15:11:47,957 INFO Client connection 2.0.0.1:62560#true disconnect, remove instances and subscribers
+
+2022-10-27 15:20:25,246 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}, 192.168.56.1:8883#true
+
+2022-10-27 15:20:25,295 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}, 192.168.56.1:8881#true
+
+2022-10-27 15:20:25,319 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=3}, 192.168.56.1:8082#true
+
+2022-10-27 15:20:53,931 INFO Client connection 2.0.0.1:54117#true disconnect, remove instances and subscribers
+
+2022-10-27 15:20:58,933 INFO Client connection 192.168.56.1:8883#true disconnect, remove instances and subscribers
+
+2022-10-27 15:20:58,933 INFO Client connection 192.168.56.1:8881#true disconnect, remove instances and subscribers
+
+2022-10-27 15:20:58,933 INFO Client connection 192.168.56.1:8082#true disconnect, remove instances and subscribers
+
+2022-10-27 15:20:58,933 INFO Client connection 2.0.0.1:60969#true disconnect, remove instances and subscribers
+
+2022-10-27 15:21:03,939 INFO Client connection 2.0.0.1:62565#true disconnect, remove instances and subscribers
+
+2022-10-27 15:21:07,153 INFO Client connection 2.0.0.1:49558#true connect
+
+2022-10-27 15:21:07,221 INFO Client connection 192.168.56.1:8302#true connect
+
+2022-10-27 15:21:07,221 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, 192.168.56.1:8302#true
+
+2022-10-27 15:21:10,175 INFO Client connection 2.0.0.1:49563#true connect
+
+2022-10-27 15:21:10,222 INFO Client connection 192.168.56.1:8202#true connect
+
+2022-10-27 15:21:10,223 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, 192.168.56.1:8202#true
+
+2022-10-27 15:21:25,815 INFO Client connection 2.0.0.1:51709#true connect
+
+2022-10-27 15:21:25,896 INFO Client connection 192.168.56.1:8301#true connect
+
+2022-10-27 15:21:25,896 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=3}, 192.168.56.1:8301#true
+
+2022-10-27 15:21:28,207 INFO Client connection 2.0.0.1:51710#true connect
+
+2022-10-27 15:21:28,218 WARN namespace : public, [DEFAULT_GROUP@@borrowservice] services are automatically cleaned
+
+2022-10-27 15:21:28,278 INFO Client connection 192.168.56.1:8201#true connect
+
+2022-10-27 15:21:28,278 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=3}, 192.168.56.1:8201#true
+
+2022-10-27 15:21:30,809 INFO Client connection 2.0.0.1:51715#true connect
+
+2022-10-27 15:21:30,866 INFO Client connection 192.168.56.1:8082#true connect
+
+2022-10-27 15:21:30,866 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=0}, 192.168.56.1:8082#true
+
+2022-10-27 15:25:38,173 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=4}, 192.168.56.1:8302#true
+
+2022-10-27 15:25:38,270 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=5}, 192.168.56.1:8301#true
+
+2022-10-27 15:25:38,331 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=4}, 192.168.56.1:8202#true
+
+2022-10-27 15:25:38,352 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=5}, 192.168.56.1:8201#true
+
+2022-10-27 15:25:38,369 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=1}, 192.168.56.1:8082#true
+
+2022-10-27 15:25:55,964 INFO Client connection 2.0.0.1:50675#true connect
+
+2022-10-27 15:25:56,062 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}, 192.168.56.1:8201#true
+
+2022-10-27 15:26:02,938 INFO Client connection 2.0.0.1:53349#true connect
+
+2022-10-27 15:26:03,100 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=7}, 192.168.56.1:8202#true
+
+2022-10-27 15:26:09,103 INFO Client connection 2.0.0.1:52075#true connect
+
+2022-10-27 15:26:09,182 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=6}, 192.168.56.1:8302#true
+
+2022-10-27 15:26:09,445 INFO Client connection 192.168.56.1:8301#true disconnect, remove instances and subscribers
+
+2022-10-27 15:26:09,445 INFO Client connection 2.0.0.1:51709#true disconnect, remove instances and subscribers
+
+2022-10-27 15:26:09,445 INFO Client connection 192.168.56.1:8082#true disconnect, remove instances and subscribers
+
+2022-10-27 15:26:09,445 INFO Client connection 2.0.0.1:49558#true disconnect, remove instances and subscribers
+
+2022-10-27 15:26:11,126 INFO Client connection 2.0.0.1:52076#true connect
+
+2022-10-27 15:26:11,199 INFO Client connection 192.168.56.1:8301#true connect
+
+2022-10-27 15:26:11,199 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=7}, 192.168.56.1:8301#true
+
+2022-10-27 15:26:14,270 INFO Client connection 2.0.0.1:52081#true connect
+
+2022-10-27 15:26:14,318 INFO Client connection 192.168.56.1:8082#true connect
+
+2022-10-27 15:26:14,318 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=2}, 192.168.56.1:8082#true
+
+2022-10-27 15:26:14,461 INFO Client connection 2.0.0.1:51715#true disconnect, remove instances and subscribers
+
+2022-10-27 15:26:14,461 INFO Client connection 2.0.0.1:51710#true disconnect, remove instances and subscribers
+
+2022-10-27 15:26:14,461 INFO Client connection 2.0.0.1:49563#true disconnect, remove instances and subscribers
+
+2022-10-27 15:31:08,576 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=8}, 192.168.56.1:8302#true
+
+2022-10-27 15:31:08,640 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=9}, 192.168.56.1:8301#true
+
+2022-10-27 15:31:08,675 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=8}, 192.168.56.1:8202#true
+
+2022-10-27 15:31:08,695 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=9}, 192.168.56.1:8201#true
+
+2022-10-27 15:31:08,726 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=3}, 192.168.56.1:8082#true
+
+2022-10-27 15:31:22,374 INFO Client connection 2.0.0.1:57777#true connect
+
+2022-10-27 15:31:22,447 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=10}, 192.168.56.1:8302#true
+
+2022-10-27 15:31:25,959 INFO Client connection 2.0.0.1:57783#true connect
+
+2022-10-27 15:31:26,033 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=10}, 192.168.56.1:8202#true
+
+2022-10-27 15:31:32,870 INFO Client connection 2.0.0.1:57792#true connect
+
+2022-10-27 15:31:32,940 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=4}, 192.168.56.1:8082#true
+
+2022-10-27 15:31:34,010 INFO Client connection 2.0.0.1:61529#true connect
+
+2022-10-27 15:31:34,076 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=11}, 192.168.56.1:8201#true
+
+2022-10-27 15:31:35,041 INFO Client connection 2.0.0.1:53349#true disconnect, remove instances and subscribers
+
+2022-10-27 15:31:36,461 INFO Client connection 2.0.0.1:61534#true connect
+
+2022-10-27 15:31:36,516 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=11}, 192.168.56.1:8301#true
+
+2022-10-27 15:31:40,055 INFO Client connection 2.0.0.1:50675#true disconnect, remove instances and subscribers
+
+2022-10-27 15:31:45,060 INFO Client connection 2.0.0.1:52081#true disconnect, remove instances and subscribers
+
+2022-10-27 15:31:45,060 INFO Client connection 2.0.0.1:52076#true disconnect, remove instances and subscribers
+
+2022-10-27 15:31:45,060 INFO Client connection 2.0.0.1:52075#true disconnect, remove instances and subscribers
+
+2022-10-27 15:31:52,410 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=12}, 192.168.56.1:8201#true
+
+2022-10-27 15:32:05,540 INFO Client connection 2.0.0.1:52487#true connect
+
+2022-10-27 15:32:05,611 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=13}, 192.168.56.1:8201#true
+
+2022-10-27 15:32:25,124 INFO Client connection 2.0.0.1:61529#true disconnect, remove instances and subscribers
+
+2022-10-27 15:32:48,747 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=14}, 192.168.56.1:8201#true
+
+2022-10-27 15:32:52,457 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=5}, 192.168.56.1:8082#true
+
+2022-10-27 15:33:08,753 INFO Client connection 2.0.0.1:57519#true connect
+
+2022-10-27 15:33:08,823 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=15}, 192.168.56.1:8201#true
+
+2022-10-27 15:33:14,603 INFO Client connection 2.0.0.1:57528#true connect
+
+2022-10-27 15:33:14,659 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=6}, 192.168.56.1:8082#true
+
+2022-10-27 15:33:20,230 INFO Client connection 2.0.0.1:52487#true disconnect, remove instances and subscribers
+
+2022-10-27 15:33:25,247 INFO Client connection 2.0.0.1:57792#true disconnect, remove instances and subscribers
+
+2022-10-27 15:33:54,370 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=7}, 192.168.56.1:8082#true
+
+2022-10-27 15:34:06,600 INFO Client connection 2.0.0.1:49233#true connect
+
+2022-10-27 15:34:06,659 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=8}, 192.168.56.1:8082#true
+
+2022-10-27 15:34:30,341 INFO Client connection 2.0.0.1:57528#true disconnect, remove instances and subscribers
+
+2022-10-27 15:35:01,564 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=9}, 192.168.56.1:8082#true
+
+2022-10-27 15:35:15,666 INFO Client connection 2.0.0.1:54815#true connect
+
+2022-10-27 15:35:15,721 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=10}, 192.168.56.1:8082#true
+
+2022-10-27 15:35:35,442 INFO Client connection 2.0.0.1:49233#true disconnect, remove instances and subscribers
+
+2022-10-27 15:36:03,106 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=11}, 192.168.56.1:8082#true
+
+2022-10-27 15:36:20,142 INFO Client connection 2.0.0.1:57213#true connect
+
+2022-10-27 15:36:20,199 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=12}, 192.168.56.1:8082#true
+
+2022-10-27 15:36:35,568 INFO Client connection 2.0.0.1:54815#true disconnect, remove instances and subscribers
+
+2022-10-27 15:37:42,664 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=13}, 192.168.56.1:8082#true
+
+2022-10-27 15:38:15,740 INFO Client connection 192.168.56.1:8082#true disconnect, remove instances and subscribers
+
+2022-10-27 15:38:15,740 INFO Client connection 2.0.0.1:57213#true disconnect, remove instances and subscribers
+
+2022-10-27 15:39:28,362 WARN namespace : public, [DEFAULT_GROUP@@borrowservice] services are automatically cleaned
+
+2022-10-27 15:40:15,446 INFO Client connection 2.0.0.1:55242#true connect
+
+2022-10-27 15:40:15,497 INFO Client connection 192.168.56.1:8082#true connect
+
+2022-10-27 15:40:15,497 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=0}, 192.168.56.1:8082#true
+
+2022-10-27 15:42:56,366 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=1}, 192.168.56.1:8082#true
+
+2022-10-27 15:43:14,451 INFO Client connection 2.0.0.1:63943#true connect
+
+2022-10-27 15:43:14,515 INFO Client connection 192.168.56.1:8082#false connect
+
+2022-10-27 15:43:31,192 INFO Client connection 2.0.0.1:55242#true disconnect, remove instances and subscribers
+
+2022-10-27 15:43:31,192 INFO Client connection 192.168.56.1:8082#true disconnect, remove instances and subscribers
+
+2022-10-27 15:43:41,033 INFO Client connection 2.0.0.1:53714#true connect
+
+2022-10-27 15:43:46,215 INFO Client connection 2.0.0.1:63943#true disconnect, remove instances and subscribers
+
+2022-10-27 15:44:13,192 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=12}, 192.168.56.1:8302#true
+
+2022-10-27 15:44:13,234 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=13}, 192.168.56.1:8301#true
+
+2022-10-27 15:44:13,268 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=16}, 192.168.56.1:8202#true
+
+2022-10-27 15:44:13,287 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=17}, 192.168.56.1:8201#true
+
+2022-10-27 15:44:16,275 INFO Client connection 2.0.0.1:53714#true disconnect, remove instances and subscribers
+
+2022-10-27 15:44:44,000 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-10-27 15:44:44,000 WARN Using naming.distro config to replace core.distro config
+
+2022-10-27 15:44:44,110 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-10-27 15:44:44,110 INFO listen for service meta change
+
+2022-10-27 15:45:43,266 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-10-27 15:45:43,266 WARN Using naming.distro config to replace core.distro config
+
+2022-10-27 15:45:43,371 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-10-27 15:45:43,372 INFO listen for service meta change
+
+2022-10-27 15:45:45,852 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-10-27 15:45:45,852 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-10-27 15:45:45,853 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-10-27 15:45:45,853 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-10-27 15:45:46,402 INFO Load instance extension handler []
+
+2022-10-27 15:46:28,938 INFO Client connection 2.0.0.1:65236#true connect
+
+2022-10-27 15:46:29,102 INFO Client connection 192.168.56.1:8302#true connect
+
+2022-10-27 15:46:29,103 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=0}, 192.168.56.1:8302#true
+
+2022-10-27 15:46:35,953 INFO Client connection 2.0.0.1:49506#true connect
+
+2022-10-27 15:46:36,009 INFO Client connection 192.168.56.1:8082#false connect
+
+2022-10-27 15:46:37,484 INFO Client connection 2.0.0.1:49511#true connect
+
+2022-10-27 15:46:37,558 INFO Client connection 192.168.56.1:8301#true connect
+
+2022-10-27 15:46:37,558 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}, 192.168.56.1:8301#true
+
+2022-10-27 15:46:40,600 INFO Client connection 2.0.0.1:63927#true connect
+
+2022-10-27 15:46:40,652 INFO Client connection 192.168.56.1:8202#true connect
+
+2022-10-27 15:46:40,652 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=0}, 192.168.56.1:8202#true
+
+2022-10-27 15:46:42,033 INFO Client connection 2.0.0.1:63932#true connect
+
+2022-10-27 15:46:42,093 INFO Client connection 192.168.56.1:8201#true connect
+
+2022-10-27 15:46:42,093 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}, 192.168.56.1:8201#true
+
+2022-10-27 15:47:09,501 INFO Client connection 2.0.0.1:49506#true disconnect, remove instances and subscribers
+
+2022-10-27 15:48:16,272 WARN namespace : public, [DEFAULT_GROUP@@borrowservice] services are automatically cleaned
+
+2022-10-27 15:48:21,483 INFO Client connection 2.0.0.1:55449#true connect
+
+2022-10-27 15:48:54,692 INFO Client connection 2.0.0.1:55449#true disconnect, remove instances and subscribers
+
+2022-10-27 15:49:02,090 INFO Client connection 2.0.0.1:57609#true connect
+
+2022-10-27 15:49:14,216 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, 192.168.56.1:8302#true
+
+2022-10-27 15:49:14,271 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=3}, 192.168.56.1:8301#true
+
+2022-10-27 15:49:14,318 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, 192.168.56.1:8202#true
+
+2022-10-27 15:49:14,331 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=3}, 192.168.56.1:8201#true
+
+2022-10-27 16:20:11,517 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-10-27 16:20:11,517 WARN Using naming.distro config to replace core.distro config
+
+2022-10-27 16:20:11,614 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-10-27 16:20:11,615 INFO listen for service meta change
+
+2022-10-27 16:20:14,405 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-10-27 16:20:14,405 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-10-27 16:20:14,406 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-10-27 16:20:14,406 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-10-27 16:20:15,047 INFO Load instance extension handler []
+
+2022-10-27 16:20:36,510 INFO Client connection 2.0.0.1:52486#true connect
+
+2022-10-27 16:20:36,637 INFO Client connection 192.168.56.1:8302#true connect
+
+2022-10-27 16:20:36,638 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=0}, 192.168.56.1:8302#true
+
+2022-10-27 16:20:40,977 INFO Client connection 2.0.0.1:52491#true connect
+
+2022-10-27 16:20:41,098 INFO Client connection 192.168.56.1:8301#true connect
+
+2022-10-27 16:20:41,098 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}, 192.168.56.1:8301#true
+
+2022-10-27 16:20:48,772 INFO Client connection 2.0.0.1:49360#true connect
+
+2022-10-27 16:20:48,847 INFO Client connection 192.168.56.1:8202#true connect
+
+2022-10-27 16:20:48,848 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=0}, 192.168.56.1:8202#true
+
+2022-10-27 16:20:50,071 INFO Client connection 2.0.0.1:49361#true connect
+
+2022-10-27 16:20:50,140 INFO Client connection 192.168.56.1:8201#true connect
+
+2022-10-27 16:20:50,140 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}, 192.168.56.1:8201#true
+
+2022-10-27 16:20:52,831 INFO Client connection 2.0.0.1:49366#true connect
+
+2022-10-27 16:20:52,894 INFO Client connection 192.168.56.1:8082#false connect
+
+2022-10-27 16:21:27,692 INFO Client connection 2.0.0.1:49366#true disconnect, remove instances and subscribers
+
+2022-10-27 16:22:07,264 INFO Client connection 2.0.0.1:57097#true connect
+
+2022-10-27 16:22:07,365 INFO Client connection 192.168.56.1:8082#true connect
+
+2022-10-27 16:22:37,852 INFO Client connection 192.168.56.1:8082#true disconnect, remove instances and subscribers
+
+2022-10-27 16:22:42,862 INFO Client connection 2.0.0.1:57097#true disconnect, remove instances and subscribers
+
+2022-10-27 16:22:44,879 WARN namespace : public, [DEFAULT_GROUP@@borrowservice] services are automatically cleaned
+
+2022-10-27 16:25:11,087 INFO Client connection 2.0.0.1:59839#true connect
+
+2022-10-27 16:25:11,138 INFO Client connection 192.168.56.1:8082#true connect
+
+2022-10-27 16:25:11,138 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=0}, 192.168.56.1:8082#true
+
+2022-10-27 16:25:26,867 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=true, revision=1}, 192.168.56.1:8082#true
+
+2022-10-27 16:25:42,675 INFO Client connection 2.0.0.1:49798#true connect
+
+2022-10-27 16:25:58,206 INFO Client connection 192.168.56.1:8082#true disconnect, remove instances and subscribers
+
+2022-10-27 16:26:03,221 INFO Client connection 2.0.0.1:59839#true disconnect, remove instances and subscribers
+
+2022-10-27 16:26:18,238 INFO Client connection 2.0.0.1:49798#true disconnect, remove instances and subscribers
+
+2022-10-27 16:26:44,910 WARN namespace : public, [DEFAULT_GROUP@@borrowservice] services are automatically cleaned
+
+2022-10-27 16:33:07,795 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2022-10-27 16:33:07,809 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2022-10-27 16:33:08,152 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2133)
+	at java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:458)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-27 16:33:08,152 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2133)
+	at java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:458)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-27 16:34:07,140 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-10-27 16:34:07,140 WARN Using naming.distro config to replace core.distro config
+
+2022-10-27 16:34:07,307 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-10-27 16:34:07,308 INFO listen for service meta change
+
+2022-10-27 16:34:10,456 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-10-27 16:34:10,456 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-10-27 16:34:10,457 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-10-27 16:34:10,457 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-10-27 16:34:11,127 INFO Load instance extension handler []
+
+2022-10-27 16:34:12,399 INFO Client connection 192.168.56.1:8201#true connect
+
+2022-10-27 16:34:12,399 INFO Client connection 192.168.56.1:8202#true connect
+
+2022-10-27 16:34:12,411 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=0}, 192.168.56.1:8201#true
+
+2022-10-27 16:34:12,411 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=0}, 192.168.56.1:8202#true
+
+2022-10-27 16:34:12,521 INFO Client connection 2.0.0.1:52491#true connect
+
+2022-10-27 16:34:12,522 INFO Client connection 192.168.56.1:8301#true connect
+
+2022-10-27 16:34:12,522 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=0}, 192.168.56.1:8301#true
+
+2022-10-27 16:34:12,597 INFO Client connection 2.0.0.1:49361#true connect
+
+2022-10-27 16:34:12,615 INFO Client connection 192.168.56.1:8302#true connect
+
+2022-10-27 16:34:12,616 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}, 192.168.56.1:8302#true
+
+2022-10-27 16:34:13,097 INFO Client connection 2.0.0.1:58441#true connect
+
+2022-10-27 16:34:13,172 INFO Client connection 192.168.56.1:8082#false connect
+
+2022-10-27 16:34:13,200 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, 192.168.56.1:8082#false
+
+2022-10-27 16:34:20,652 WARN remove instance from non-exist client: 192.168.56.1:8082#true
+
+2022-10-27 16:34:24,264 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=1}, 192.168.56.1:8082#false
+
+2022-10-27 16:34:41,198 INFO Client connection 2.0.0.1:52486#true connect
+
+2022-10-27 16:34:43,326 INFO Client connection 2.0.0.1:49360#true connect
+
+2022-10-27 16:34:43,736 INFO Client connection 2.0.0.1:52491#true disconnect, remove instances and subscribers
+
+2022-10-27 16:34:44,578 INFO Client connection 2.0.0.1:52491#true connect
+
+2022-10-27 16:34:48,751 INFO Client connection 2.0.0.1:58441#true disconnect, remove instances and subscribers
+
+2022-10-27 16:35:31,369 INFO Client connection 2.0.0.1:58455#true connect
+
+2022-10-27 16:35:31,436 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=2}, 192.168.56.1:8082#false
+
+2022-10-27 16:37:04,787 WARN remove instance from non-exist client: 192.168.56.1:8082#true
+
+2022-10-27 16:37:08,143 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=5}, 192.168.56.1:8082#false
+
+2022-10-27 16:37:29,031 INFO Client connection 2.0.0.1:58455#true disconnect, remove instances and subscribers
+
+2022-10-27 16:38:37,636 INFO Client connection 2.0.0.1:52529#true connect
+
+2022-10-27 16:38:37,705 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=6}, 192.168.56.1:8082#false
+
+2022-10-27 17:04:31,275 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2022-10-27 17:04:31,288 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2022-10-27 17:06:18,166 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-10-27 17:06:18,166 WARN Using naming.distro config to replace core.distro config
+
+2022-10-27 17:06:18,316 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-10-27 17:06:18,317 INFO listen for service meta change
+
+2022-10-27 17:06:21,504 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-10-27 17:06:21,504 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-10-27 17:06:21,505 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-10-27 17:06:21,505 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-10-27 17:06:22,117 INFO Load instance extension handler []
+
+2022-10-27 17:06:35,890 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=1}, 192.168.56.1:8082#false
+
+2022-10-27 17:06:37,632 INFO Client connection 2.0.0.1:64050#true connect
+
+2022-10-27 17:06:37,749 INFO Client connection 192.168.56.1:8302#true connect
+
+2022-10-27 17:06:37,750 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=0}, 192.168.56.1:8302#true
+
+2022-10-27 17:06:40,572 INFO Client connection 2.0.0.1:53924#true connect
+
+2022-10-27 17:06:47,785 INFO Client connection 2.0.0.1:55779#true connect
+
+2022-10-27 17:06:48,750 INFO Client connection 2.0.0.1:51674#true connect
+
+2022-10-27 17:06:52,083 INFO Client connection 2.0.0.1:51679#true connect
+
+2022-10-27 17:06:52,155 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=2}, 192.168.56.1:8082#false
+
+2022-10-27 17:07:14,988 INFO Client connection 2.0.0.1:53924#true disconnect, remove instances and subscribers
+
+2022-10-27 17:07:20,001 INFO Client connection 2.0.0.1:55779#true disconnect, remove instances and subscribers
+
+2022-10-27 17:07:20,001 INFO Client connection 2.0.0.1:51674#true disconnect, remove instances and subscribers
+
+2022-10-27 17:07:22,516 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=3}, 192.168.56.1:8082#false
+
+2022-10-27 17:09:12,519 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-10-27 17:09:12,519 WARN Using naming.distro config to replace core.distro config
+
+2022-10-27 17:09:12,656 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-10-27 17:09:12,657 INFO listen for service meta change
+
+2022-10-27 17:09:15,332 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-10-27 17:09:15,332 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-10-27 17:09:15,333 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-10-27 17:09:15,333 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-10-27 17:09:15,811 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=1}, 192.168.56.1:8082#false
+
+2022-10-27 17:09:15,814 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=2}, 192.168.56.1:8082#false
+
+2022-10-27 17:09:15,815 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=3}, 192.168.56.1:8082#false
+
+2022-10-27 17:09:15,941 INFO Load instance extension handler []
+
+2022-10-27 17:09:31,698 INFO Client connection 2.0.0.1:49643#true connect
+
+2022-10-27 17:09:31,825 INFO Client connection 192.168.56.1:8302#true connect
+
+2022-10-27 17:09:31,827 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=0}, 192.168.56.1:8302#true
+
+2022-10-27 17:09:35,852 INFO Client connection 2.0.0.1:49648#true connect
+
+2022-10-27 17:09:38,940 INFO Client connection 2.0.0.1:49978#true connect
+
+2022-10-27 17:09:41,154 INFO Client connection 2.0.0.1:49983#true connect
+
+2022-10-27 17:09:43,326 INFO Client connection 2.0.0.1:49985#true connect
+
+2022-10-27 17:09:43,423 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=4}, 192.168.56.1:8082#false
+
+2022-10-27 17:10:08,963 INFO Client connection 2.0.0.1:49648#true disconnect, remove instances and subscribers
+
+2022-10-27 17:10:13,969 INFO Client connection 2.0.0.1:49978#true disconnect, remove instances and subscribers
+
+2022-10-27 17:10:13,969 INFO Client connection 2.0.0.1:49983#true disconnect, remove instances and subscribers
+
+2022-10-27 17:10:35,639 INFO Client connection 2.0.0.1:58516#true connect
+
+2022-10-27 17:10:35,708 INFO Client connection 192.168.56.1:8301#true connect
+
+2022-10-27 17:10:35,708 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}, 192.168.56.1:8301#true
+
+2022-10-27 17:10:38,364 INFO Client connection 2.0.0.1:51509#true connect
+
+2022-10-27 17:10:38,426 INFO Client connection 192.168.56.1:8202#true connect
+
+2022-10-27 17:10:38,426 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=0}, 192.168.56.1:8202#true
+
+2022-10-27 17:10:40,995 INFO Client connection 2.0.0.1:51383#true connect
+
+2022-10-27 17:10:41,064 INFO Client connection 192.168.56.1:8201#true connect
+
+2022-10-27 17:10:41,064 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}, 192.168.56.1:8201#true
+
+2022-10-27 17:15:11,101 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, 192.168.56.1:8201#true
+
+2022-10-27 17:15:32,769 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-10-27 17:15:32,769 WARN Using naming.distro config to replace core.distro config
+
+2022-10-27 17:15:32,910 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-10-27 17:15:32,911 INFO listen for service meta change
+
+2022-10-27 17:15:35,555 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-10-27 17:15:35,555 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-10-27 17:15:35,556 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-10-27 17:15:35,556 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-10-27 17:15:36,044 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=1}, 192.168.56.1:8082#false
+
+2022-10-27 17:15:36,047 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=2}, 192.168.56.1:8082#false
+
+2022-10-27 17:15:36,047 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=3}, 192.168.56.1:8082#false
+
+2022-10-27 17:15:36,048 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=4}, 192.168.56.1:8082#false
+
+2022-10-27 17:15:36,169 INFO Load instance extension handler []
+
+2022-10-27 17:15:37,172 WARN remove instance from non-exist client: 192.168.56.1:8301#true
+
+2022-10-27 17:15:37,172 WARN remove instance from non-exist client: 192.168.56.1:8302#true
+
+2022-10-27 17:15:37,174 INFO Client connection 2.0.0.1:49985#true connect
+
+2022-10-27 17:15:37,204 WARN remove instance from non-exist client: 192.168.56.1:8082#true
+
+2022-10-27 17:15:37,204 INFO Client connection 2.0.0.1:58516#true connect
+
+2022-10-27 17:15:37,204 WARN remove instance from non-exist client: 192.168.56.1:8202#true
+
+2022-10-27 17:15:37,377 INFO Client connection 2.0.0.1:49643#true connect
+
+2022-10-27 17:15:37,920 INFO Client connection 2.0.0.1:51509#true connect
+
+2022-10-27 17:16:12,648 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-10-27 17:16:12,648 WARN Using naming.distro config to replace core.distro config
+
+2022-10-27 17:16:12,747 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-10-27 17:16:12,747 INFO listen for service meta change
+
+2022-10-27 17:16:15,231 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-10-27 17:16:15,231 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-10-27 17:16:15,231 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-10-27 17:16:15,231 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-10-27 17:16:15,702 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=1}, 192.168.56.1:8082#false
+
+2022-10-27 17:16:15,705 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=2}, 192.168.56.1:8082#false
+
+2022-10-27 17:16:15,705 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=3}, 192.168.56.1:8082#false
+
+2022-10-27 17:16:15,706 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=4}, 192.168.56.1:8082#false
+
+2022-10-27 17:16:15,836 INFO Load instance extension handler []
+
+2022-10-27 17:16:25,258 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=5}, 192.168.56.1:8082#false
+
+2022-10-27 17:16:33,984 INFO Client connection 2.0.0.1:56465#true connect
+
+2022-10-27 17:16:34,094 INFO Client connection 192.168.56.1:8302#true connect
+
+2022-10-27 17:16:34,094 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=0}, 192.168.56.1:8302#true
+
+2022-10-27 17:16:37,502 INFO Client connection 2.0.0.1:56470#true connect
+
+2022-10-27 17:16:37,589 INFO Client connection 192.168.56.1:8301#true connect
+
+2022-10-27 17:16:37,589 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}, 192.168.56.1:8301#true
+
+2022-10-27 17:16:43,913 INFO Client connection 2.0.0.1:59662#true connect
+
+2022-10-27 17:16:43,968 INFO Client connection 192.168.56.1:8202#true connect
+
+2022-10-27 17:16:43,968 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=0}, 192.168.56.1:8202#true
+
+2022-10-27 17:16:45,630 INFO Client connection 2.0.0.1:50081#true connect
+
+2022-10-27 17:16:45,684 INFO Client connection 192.168.56.1:8201#true connect
+
+2022-10-27 17:16:45,684 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}, 192.168.56.1:8201#true
+
+2022-10-27 17:16:48,164 INFO Client connection 2.0.0.1:50086#true connect
+
+2022-10-27 17:16:48,231 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=6}, 192.168.56.1:8082#false
+
+2022-10-27 17:26:34,479 WARN remove instance from non-exist client: 192.168.56.1:8082#true
+
+2022-10-27 17:26:38,230 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=7}, 192.168.56.1:8082#false
+
+2022-10-27 17:26:49,060 INFO Client connection 2.0.0.1:61536#true connect
+
+2022-10-27 17:26:49,121 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=8}, 192.168.56.1:8082#false
+
+2022-10-27 17:27:04,860 INFO Client connection 2.0.0.1:50086#true disconnect, remove instances and subscribers
+
+2022-10-27 17:30:06,702 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, 192.168.56.1:8302#true
+
+2022-10-27 17:30:06,762 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=3}, 192.168.56.1:8301#true
+
+2022-10-27 17:30:06,825 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, 192.168.56.1:8202#true
+
+2022-10-27 17:30:06,861 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=3}, 192.168.56.1:8201#true
+
+2022-10-27 17:30:06,870 WARN remove instance from non-exist client: 192.168.56.1:8082#true
+
+2022-10-27 17:30:09,766 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=9}, 192.168.56.1:8082#false
+
+2022-10-27 17:30:49,080 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-10-27 17:30:49,080 WARN Using naming.distro config to replace core.distro config
+
+2022-10-27 17:30:49,326 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-10-27 17:30:49,327 INFO listen for service meta change
+
+2022-10-27 17:30:56,762 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-10-27 17:30:56,762 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-10-27 17:30:56,764 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-10-27 17:30:56,764 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-10-27 17:30:57,918 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=1}, 192.168.56.1:8082#false
+
+2022-10-27 17:30:57,922 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=2}, 192.168.56.1:8082#false
+
+2022-10-27 17:30:57,923 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=3}, 192.168.56.1:8082#false
+
+2022-10-27 17:30:57,925 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=4}, 192.168.56.1:8082#false
+
+2022-10-27 17:30:57,926 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=5}, 192.168.56.1:8082#false
+
+2022-10-27 17:30:57,927 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=6}, 192.168.56.1:8082#false
+
+2022-10-27 17:30:57,929 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=7}, 192.168.56.1:8082#false
+
+2022-10-27 17:30:57,931 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=8}, 192.168.56.1:8082#false
+
+2022-10-27 17:30:57,932 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=9}, 192.168.56.1:8082#false
+
+2022-10-27 17:30:58,286 INFO Load instance extension handler []
+
+2022-10-27 17:31:01,171 INFO Client connection 2.0.0.1:62662#true connect
+
+2022-10-27 17:31:01,433 INFO Client connection 192.168.56.1:8302#true connect
+
+2022-10-27 17:31:01,434 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=0}, 192.168.56.1:8302#true
+
+2022-10-27 17:31:10,668 INFO Client connection 2.0.0.1:62691#true connect
+
+2022-10-27 17:31:10,739 INFO Client connection 192.168.56.1:8301#true connect
+
+2022-10-27 17:31:10,739 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}, 192.168.56.1:8301#true
+
+2022-10-27 17:31:14,011 INFO Client connection 2.0.0.1:62692#true connect
+
+2022-10-27 17:31:14,090 INFO Client connection 192.168.56.1:8202#true connect
+
+2022-10-27 17:31:14,090 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=0}, 192.168.56.1:8202#true
+
+2022-10-27 17:31:18,135 INFO Client connection 2.0.0.1:51097#true connect
+
+2022-10-27 17:31:18,201 INFO Client connection 192.168.56.1:8201#true connect
+
+2022-10-27 17:31:18,201 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}, 192.168.56.1:8201#true
+
+2022-10-27 17:31:20,439 INFO Client connection 2.0.0.1:62424#true connect
+
+2022-10-27 17:31:20,527 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=10}, 192.168.56.1:8082#false
+
+2022-10-27 17:34:00,798 WARN remove instance from non-exist client: 192.168.56.1:8082#true
+
+2022-10-27 17:34:04,061 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=11}, 192.168.56.1:8082#false
+
+2022-10-27 17:34:32,190 INFO Client connection 2.0.0.1:62424#true disconnect, remove instances and subscribers
+
+2022-10-27 17:36:26,184 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, 192.168.56.1:8302#true
+
+2022-10-27 17:36:34,586 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=3}, 192.168.56.1:8301#true
+
+2022-10-27 17:36:43,672 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, 192.168.56.1:8202#true
+
+2022-10-27 17:36:49,927 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=3}, 192.168.56.1:8201#true
+

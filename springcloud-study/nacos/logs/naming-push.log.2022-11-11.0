@@ -1,0 +1,138 @@
+2022-11-11 22:51:47,530 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=1}
+
+2022-11-11 22:51:47,922 INFO DEFAULT_GROUP@@auth-service is changed, add it to push queue.
+
+2022-11-11 22:51:47,930 INFO serviceName: DEFAULT_GROUP@@auth-service@@DEFAULT changed, schedule push for: 2.0.0.1:53146, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53146,134472415978000
+
+2022-11-11 22:51:47,931 INFO send udp packet: 2.0.0.1,53146,134472415978000
+
+2022-11-11 22:51:47,955 INFO [PUSH-SUCC] 34ms, all delay time 547ms, SLA 425ms, Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-11-11 23:04:13,162 INFO DEFAULT_GROUP@@auth-service is changed, add it to push queue.
+
+2022-11-11 23:04:13,162 INFO serviceName: DEFAULT_GROUP@@auth-service@@DEFAULT changed, schedule push for: 2.0.0.1:53146, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53146,135217656168499
+
+2022-11-11 23:04:13,162 INFO send udp packet: 2.0.0.1,53146,135217656168499
+
+2022-11-11 23:04:13,166 INFO [PUSH-SUCC] 4ms, all delay time 598ms, SLA 599ms, Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-11-11 23:04:30,187 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=3}
+
+2022-11-11 23:04:30,653 INFO DEFAULT_GROUP@@auth-service is changed, add it to push queue.
+
+2022-11-11 23:04:30,653 INFO serviceName: DEFAULT_GROUP@@auth-service@@DEFAULT changed, schedule push for: 2.0.0.1:53146, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53146,135235147116200
+
+2022-11-11 23:04:30,653 INFO DEFAULT_GROUP@@auth-service is changed, add it to push queue.
+
+2022-11-11 23:04:30,653 INFO send udp packet: 2.0.0.1,53146,135235147116200
+
+2022-11-11 23:04:30,654 INFO serviceName: DEFAULT_GROUP@@auth-service@@DEFAULT changed, schedule push for: 2.0.0.1:53323, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53323,135235147491599
+
+2022-11-11 23:04:30,654 INFO send udp packet: 2.0.0.1,53323,135235147491599
+
+2022-11-11 23:04:30,668 INFO [PUSH-SUCC] 15ms, all delay time 537ms, SLA 481ms, Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-11-11 23:04:40,659 INFO retry to push data, key: 2.0.0.1,53146,135235147116200
+
+2022-11-11 23:04:50,660 WARN max re-push times reached, retry times 2, key: 2.0.0.1,53146,135235147116200
+
+2022-11-11 23:04:50,660 ERROR [PUSH-FAIL] 20007ms, Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=3}, reason=null, target=2.0.0.1
+
+2022-11-11 23:05:42,561 INFO DEFAULT_GROUP@@auth-service is changed, add it to push queue.
+
+2022-11-11 23:05:42,561 INFO serviceName: DEFAULT_GROUP@@auth-service@@DEFAULT changed, schedule push for: 2.0.0.1:53323, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53323,135307055098899
+
+2022-11-11 23:05:42,561 INFO send udp packet: 2.0.0.1,53323,135307055098899
+
+2022-11-11 23:05:42,565 INFO [PUSH-SUCC] 4ms, all delay time 599ms, SLA 599ms, Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-11-11 23:06:00,820 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=5}
+
+2022-11-11 23:06:01,274 INFO DEFAULT_GROUP@@auth-service is changed, add it to push queue.
+
+2022-11-11 23:06:01,274 INFO serviceName: DEFAULT_GROUP@@auth-service@@DEFAULT changed, schedule push for: 2.0.0.1:59020, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,59020,135325767846000
+
+2022-11-11 23:06:01,274 INFO DEFAULT_GROUP@@auth-service is changed, add it to push queue.
+
+2022-11-11 23:06:01,274 INFO send udp packet: 2.0.0.1,59020,135325767846000
+
+2022-11-11 23:06:01,274 INFO serviceName: DEFAULT_GROUP@@auth-service@@DEFAULT changed, schedule push for: 2.0.0.1:53323, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53323,135325768211399
+
+2022-11-11 23:06:01,274 INFO send udp packet: 2.0.0.1,53323,135325768211399
+
+2022-11-11 23:06:01,291 INFO [PUSH-SUCC] 17ms, all delay time 537ms, SLA 471ms, Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-11-11 23:06:11,277 INFO retry to push data, key: 2.0.0.1,53323,135325768211399
+
+2022-11-11 23:06:21,282 WARN max re-push times reached, retry times 2, key: 2.0.0.1,53323,135325768211399
+
+2022-11-11 23:06:21,282 ERROR [PUSH-FAIL] 20008ms, Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=5}, reason=null, target=2.0.0.1
+
+2022-11-11 23:14:31,774 INFO DEFAULT_GROUP@@auth-service is changed, add it to push queue.
+
+2022-11-11 23:14:31,774 INFO serviceName: DEFAULT_GROUP@@auth-service@@DEFAULT changed, schedule push for: 2.0.0.1:59020, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,59020,135836268093900
+
+2022-11-11 23:14:31,774 INFO send udp packet: 2.0.0.1,59020,135836268093900
+
+2022-11-11 23:14:31,777 INFO [PUSH-SUCC] 3ms, all delay time 529ms, SLA 530ms, Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=6}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-11-11 23:14:46,041 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=7}
+
+2022-11-11 23:14:46,542 INFO DEFAULT_GROUP@@auth-service is changed, add it to push queue.
+
+2022-11-11 23:14:46,542 INFO serviceName: DEFAULT_GROUP@@auth-service@@DEFAULT changed, schedule push for: 2.0.0.1:59020, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,59020,135851036493000
+
+2022-11-11 23:14:46,542 INFO DEFAULT_GROUP@@auth-service is changed, add it to push queue.
+
+2022-11-11 23:14:46,542 INFO send udp packet: 2.0.0.1,59020,135851036493000
+
+2022-11-11 23:14:46,543 INFO serviceName: DEFAULT_GROUP@@auth-service@@DEFAULT changed, schedule push for: 2.0.0.1:59606, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,59606,135851036877200
+
+2022-11-11 23:14:46,543 INFO send udp packet: 2.0.0.1,59606,135851036877200
+
+2022-11-11 23:14:46,563 INFO [PUSH-SUCC] 21ms, all delay time 585ms, SLA 522ms, Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-11-11 23:14:56,544 INFO retry to push data, key: 2.0.0.1,59020,135851036493000
+
+2022-11-11 23:15:06,545 WARN max re-push times reached, retry times 2, key: 2.0.0.1,59020,135851036493000
+
+2022-11-11 23:15:06,545 ERROR [PUSH-FAIL] 20003ms, Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=7}, reason=null, target=2.0.0.1
+
+2022-11-11 23:19:50,440 INFO DEFAULT_GROUP@@auth-service is changed, add it to push queue.
+
+2022-11-11 23:19:50,440 INFO serviceName: DEFAULT_GROUP@@auth-service@@DEFAULT changed, schedule push for: 2.0.0.1:59606, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,59606,136154933700500
+
+2022-11-11 23:19:50,440 INFO send udp packet: 2.0.0.1,59606,136154933700500
+
+2022-11-11 23:19:50,443 INFO [PUSH-SUCC] 3ms, all delay time 557ms, SLA 557ms, Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=8}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-11-11 23:20:07,624 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=9}
+
+2022-11-11 23:20:08,129 INFO DEFAULT_GROUP@@auth-service is changed, add it to push queue.
+
+2022-11-11 23:20:08,129 INFO serviceName: DEFAULT_GROUP@@auth-service@@DEFAULT changed, schedule push for: 2.0.0.1:59606, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,59606,136172623477699
+
+2022-11-11 23:20:08,129 INFO send udp packet: 2.0.0.1,59606,136172623477699
+
+2022-11-11 23:20:08,129 INFO DEFAULT_GROUP@@auth-service is changed, add it to push queue.
+
+2022-11-11 23:20:08,130 INFO serviceName: DEFAULT_GROUP@@auth-service@@DEFAULT changed, schedule push for: 2.0.0.1:54775, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,54775,136172624284300
+
+2022-11-11 23:20:08,130 INFO send udp packet: 2.0.0.1,54775,136172624284300
+
+2022-11-11 23:20:08,146 INFO [PUSH-SUCC] 17ms, all delay time 574ms, SLA 522ms, Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-11-11 23:20:18,134 INFO retry to push data, key: 2.0.0.1,59606,136172623477699
+
+2022-11-11 23:20:28,137 WARN max re-push times reached, retry times 2, key: 2.0.0.1,59606,136172623477699
+
+2022-11-11 23:20:28,137 ERROR [PUSH-FAIL] 20008ms, Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=9}, reason=null, target=2.0.0.1
+
+2022-11-11 23:21:42,490 INFO DEFAULT_GROUP@@auth-service is changed, add it to push queue.
+
+2022-11-11 23:21:42,490 INFO serviceName: DEFAULT_GROUP@@auth-service@@DEFAULT changed, schedule push for: 2.0.0.1:54775, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,54775,136266984351100
+
+2022-11-11 23:21:42,490 INFO send udp packet: 2.0.0.1,54775,136266984351100
+
+2022-11-11 23:21:42,494 INFO [PUSH-SUCC] 4ms, all delay time 527ms, SLA 528ms, Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=10}, originalSize=0, DataSize=0, target=2.0.0.1
+

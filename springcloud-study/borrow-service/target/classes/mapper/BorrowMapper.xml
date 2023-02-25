@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yanghi.study.mapper.BorrowMapper">
+    <select id="getBorrowsByUid" resultType="com.yanghi.study.bean.Borrow">
+        select `id`, `uid`, `bid` from db_borrow where uid = #{uid}
+    </select>
+    <select id="getBorrowsByBid" resultType="com.yanghi.study.bean.Borrow">
+        select `id`, `uid`, `bid` from db_borrow where bid = #{bid}
+    </select>
+    <select id="getBorrowByUidAndBid" resultType="com.yanghi.study.bean.Borrow">
+        select `id`, `uid`, `bid` from db_borrow where bid = #{bid} and uid = #{uid}
+    </select>
+</mapper>

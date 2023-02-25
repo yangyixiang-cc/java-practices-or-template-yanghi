@@ -1,0 +1,62 @@
+2022-10-31 10:32:43,201 INFO Initializes the Raft protocol, raft-config info : {}
+
+2022-10-31 10:32:43,477 INFO ========= The raft protocol is starting... =========
+
+2022-10-31 10:32:43,509 INFO ========= The raft protocol start finished... =========
+
+2022-10-31 10:32:43,544 INFO create raft group : naming_persistent_service_v2
+
+2022-10-31 10:32:44,023 INFO snapshot start to load from : E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_223
+
+2022-10-31 10:32:44,071 INFO [SNAPSHOT-LOAD] service=Service{namespace='public', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, instance=InstancePublishInfo{ip='192.168.56.1', port=8082, healthy=false, cluster='guizhou'}
+
+2022-10-31 10:32:44,071 INFO [SNAPSHOT-LOAD] service=Service{namespace='fd569e3c-8d38-4b7f-91da-57bb840e337d', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, instance=InstancePublishInfo{ip='192.168.56.1', port=8082, healthy=false, cluster='guizhou'}
+
+2022-10-31 10:32:44,071 INFO [SNAPSHOT-LOAD] service=Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, instance=InstancePublishInfo{ip='192.168.56.1', port=8082, healthy=true, cluster='guizhou'}
+
+2022-10-31 10:32:44,072 INFO [SNAPSHOT-LOAD] service=Service{namespace='prod', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, instance=InstancePublishInfo{ip='192.168.56.1', port=8082, healthy=true, cluster='guizhou'}
+
+2022-10-31 10:32:44,072 INFO snapshot success to load from : E:\Java\Java-frame-study\springcloud-study-alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_223
+
+2022-10-31 10:32:44,075 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='null', term=null, raftClusterInfo=[192.168.56.1:7848]}
+
+2022-10-31 10:32:44,169 INFO create raft group : naming_instance_metadata
+
+2022-10-31 10:32:44,191 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='192.168.56.1:7848', term=11, raftClusterInfo=[192.168.56.1:7848]}
+
+2022-10-31 10:32:44,239 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='null', term=null, raftClusterInfo=[192.168.56.1:7848]}
+
+2022-10-31 10:32:44,252 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='192.168.56.1:7848', term=11, raftClusterInfo=[192.168.56.1:7848]}
+
+2022-10-31 10:32:44,256 INFO create raft group : naming_service_metadata
+
+2022-10-31 10:32:44,320 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='null', term=null, raftClusterInfo=[192.168.56.1:7848]}
+
+2022-10-31 10:32:44,331 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='192.168.56.1:7848', term=11, raftClusterInfo=[192.168.56.1:7848]}
+
+2022-10-31 10:33:02,230 INFO Client registered. service=Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, clientId=Instance{instanceId='192.168.56.1#8082#guizhou#DEFAULT_GROUP@@borrowservice', ip='192.168.56.1', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=false, clusterName='guizhou', serviceName='DEFAULT_GROUP@@borrowservice', metadata={preserved.register.source=SPRING_CLOUD}}, instance=192.168.56.1:8082#false
+
+2022-10-31 10:39:55,293 INFO Client registered. service=Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, clientId=Instance{instanceId='192.168.56.1#8082#guizhou#DEFAULT_GROUP@@borrowservice', ip='192.168.56.1', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=false, clusterName='guizhou', serviceName='DEFAULT_GROUP@@borrowservice', metadata={preserved.register.source=SPRING_CLOUD}}, instance=192.168.56.1:8082#false
+
+2022-10-31 10:52:42,488 INFO Client registered. service=Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, clientId=Instance{instanceId='192.168.56.1#8082#guizhou#DEFAULT_GROUP@@borrowservice', ip='192.168.56.1', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=false, clusterName='guizhou', serviceName='DEFAULT_GROUP@@borrowservice', metadata={preserved.register.source=SPRING_CLOUD}}, instance=192.168.56.1:8082#false
+
+2022-10-31 10:56:24,707 INFO Client registered. service=Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, clientId=Instance{instanceId='192.168.56.1#8082#guizhou#DEFAULT_GROUP@@borrowservice', ip='192.168.56.1', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=false, clusterName='guizhou', serviceName='DEFAULT_GROUP@@borrowservice', metadata={preserved.register.source=SPRING_CLOUD}}, instance=192.168.56.1:8082#false
+
+2022-10-31 11:14:17,775 INFO Client registered. service=Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, clientId=Instance{instanceId='192.168.56.1#8082#guizhou#DEFAULT_GROUP@@borrowservice', ip='192.168.56.1', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=false, clusterName='guizhou', serviceName='DEFAULT_GROUP@@borrowservice', metadata={preserved.register.source=SPRING_CLOUD}}, instance=192.168.56.1:8082#false
+
+2022-10-31 11:19:17,017 INFO Client registered. service=Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, clientId=Instance{instanceId='192.168.56.1#8082#guizhou#DEFAULT_GROUP@@borrowservice', ip='192.168.56.1', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=false, clusterName='guizhou', serviceName='DEFAULT_GROUP@@borrowservice', metadata={preserved.register.source=SPRING_CLOUD}}, instance=192.168.56.1:8082#false
+
+2022-10-31 11:21:54,100 INFO Client registered. service=Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, clientId=Instance{instanceId='192.168.56.1#8082#guizhou#DEFAULT_GROUP@@borrowservice', ip='192.168.56.1', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=false, clusterName='guizhou', serviceName='DEFAULT_GROUP@@borrowservice', metadata={preserved.register.source=SPRING_CLOUD}}, instance=192.168.56.1:8082#false
+
+2022-10-31 11:27:25,126 INFO Client registered. service=Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, clientId=Instance{instanceId='192.168.56.1#8082#guizhou#DEFAULT_GROUP@@borrowservice', ip='192.168.56.1', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=false, clusterName='guizhou', serviceName='DEFAULT_GROUP@@borrowservice', metadata={preserved.register.source=SPRING_CLOUD}}, instance=192.168.56.1:8082#false
+
+2022-10-31 11:30:09,847 INFO Client registered. service=Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, clientId=Instance{instanceId='192.168.56.1#8082#guizhou#DEFAULT_GROUP@@borrowservice', ip='192.168.56.1', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=false, clusterName='guizhou', serviceName='DEFAULT_GROUP@@borrowservice', metadata={preserved.register.source=SPRING_CLOUD}}, instance=192.168.56.1:8082#false
+
+2022-10-31 11:31:25,535 INFO Client registered. service=Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, clientId=Instance{instanceId='192.168.56.1#8082#guizhou#DEFAULT_GROUP@@borrowservice', ip='192.168.56.1', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=false, clusterName='guizhou', serviceName='DEFAULT_GROUP@@borrowservice', metadata={preserved.register.source=SPRING_CLOUD}}, instance=192.168.56.1:8082#false
+
+2022-10-31 11:35:32,889 INFO Client registered. service=Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, clientId=Instance{instanceId='192.168.56.1#8082#guizhou#DEFAULT_GROUP@@borrowservice', ip='192.168.56.1', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=false, clusterName='guizhou', serviceName='DEFAULT_GROUP@@borrowservice', metadata={preserved.register.source=SPRING_CLOUD}}, instance=192.168.56.1:8082#false
+
+2022-10-31 11:44:45,073 INFO Client registered. service=Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, clientId=Instance{instanceId='192.168.56.1#8082#guizhou#DEFAULT_GROUP@@borrowservice', ip='192.168.56.1', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=false, clusterName='guizhou', serviceName='DEFAULT_GROUP@@borrowservice', metadata={preserved.register.source=SPRING_CLOUD}}, instance=192.168.56.1:8082#false
+
+2022-10-31 14:13:54,282 INFO Client registered. service=Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=0}, clientId=Instance{instanceId='192.168.56.1#8082#guizhou#DEFAULT_GROUP@@borrowservice', ip='192.168.56.1', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=false, clusterName='guizhou', serviceName='DEFAULT_GROUP@@borrowservice', metadata={preserved.register.source=SPRING_CLOUD}}, instance=192.168.56.1:8082#false
+

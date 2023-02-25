@@ -1,0 +1,846 @@
+2022-10-29 10:55:04,436 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}
+
+2022-10-29 10:55:04,900 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-29 10:55:04,921 INFO serviceName: DEFAULT_GROUP@@bookservice@@chongqing changed, schedule push for: 2.0.0.1:62079, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62079,160509778918700
+
+2022-10-29 10:55:04,922 INFO send udp packet: 2.0.0.1,62079,160509778918700
+
+2022-10-29 10:55:04,944 INFO [PUSH-SUCC] 45ms, all delay time 617ms, SLA 508ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-29 10:55:07,173 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}
+
+2022-10-29 10:55:07,643 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-29 10:55:07,643 INFO serviceName: DEFAULT_GROUP@@bookservice@@chongqing changed, schedule push for: 2.0.0.1:62079, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62079,160512519945900
+
+2022-10-29 10:55:07,643 INFO send udp packet: 2.0.0.1,62079,160512519945900
+
+2022-10-29 10:55:07,643 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-29 10:55:07,644 INFO serviceName: DEFAULT_GROUP@@bookservice@@guizhou changed, schedule push for: 2.0.0.1:62088, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62088,160512520815200
+
+2022-10-29 10:55:07,644 INFO send udp packet: 2.0.0.1,62088,160512520815200
+
+2022-10-29 10:55:07,645 INFO [PUSH-SUCC] 2ms, all delay time 546ms, SLA 472ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, originalSize=2, DataSize=1, target=2.0.0.1
+
+2022-10-29 10:55:07,673 INFO [PUSH-SUCC] 30ms, all delay time 574ms, SLA 500ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, originalSize=2, DataSize=1, target=2.0.0.1
+
+2022-10-29 11:08:51,989 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}
+
+2022-10-29 11:08:52,513 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 11:08:52,513 INFO serviceName: DEFAULT_GROUP@@userservice@@chongqing changed, schedule push for: 2.0.0.1:53335, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53335,161337389307200
+
+2022-10-29 11:08:52,513 INFO send udp packet: 2.0.0.1,53335,161337389307200
+
+2022-10-29 11:08:52,532 INFO [PUSH-SUCC] 19ms, all delay time 620ms, SLA 543ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-29 11:08:55,110 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}
+
+2022-10-29 11:08:55,566 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 11:08:55,567 INFO serviceName: DEFAULT_GROUP@@userservice@@guizhou changed, schedule push for: 2.0.0.1:62993, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62993,161340442940800
+
+2022-10-29 11:08:55,567 INFO send udp packet: 2.0.0.1,62993,161340442940800
+
+2022-10-29 11:08:55,567 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 11:08:55,568 INFO serviceName: DEFAULT_GROUP@@userservice@@chongqing changed, schedule push for: 2.0.0.1:53335, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53335,161340443992600
+
+2022-10-29 11:08:55,568 INFO send udp packet: 2.0.0.1,53335,161340443992600
+
+2022-10-29 11:08:55,571 INFO [PUSH-SUCC] 3ms, all delay time 519ms, SLA 460ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, originalSize=2, DataSize=1, target=2.0.0.1
+
+2022-10-29 11:08:55,598 INFO [PUSH-SUCC] 32ms, all delay time 547ms, SLA 488ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, originalSize=2, DataSize=1, target=2.0.0.1
+
+2022-10-29 11:08:58,286 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=2}
+
+2022-10-29 11:08:58,735 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-29 11:08:58,735 INFO serviceName: DEFAULT_GROUP@@borrowservice@@guizhou changed, schedule push for: 2.0.0.1:63002, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63002,161343611901100
+
+2022-10-29 11:08:58,735 INFO send udp packet: 2.0.0.1,63002,161343611901100
+
+2022-10-29 11:08:58,741 INFO [PUSH-SUCC] 6ms, all delay time 518ms, SLA 455ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=2}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-29 11:10:25,392 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 11:10:25,393 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:63002, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63002,161430268810900
+
+2022-10-29 11:10:25,393 INFO send udp packet: 2.0.0.1,63002,161430268810900
+
+2022-10-29 11:10:25,400 INFO [PUSH-SUCC] 8ms, all delay time 572ms for subscriber 2.0.0.1, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2
+
+2022-10-29 11:10:25,829 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-29 11:10:25,830 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:63002, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63002,161430706139200
+
+2022-10-29 11:10:25,830 INFO send udp packet: 2.0.0.1,63002,161430706139200
+
+2022-10-29 11:10:25,833 INFO [PUSH-SUCC] 4ms, all delay time 512ms for subscriber 2.0.0.1, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}, originalSize=2, DataSize=2
+
+2022-10-29 11:57:55,515 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}
+
+2022-10-29 11:57:55,515 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=2}
+
+2022-10-29 11:57:55,519 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=4}
+
+2022-10-29 11:57:55,519 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=4}
+
+2022-10-29 11:57:55,519 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=4}
+
+2022-10-29 11:57:55,519 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=4}
+
+2022-10-29 11:57:56,015 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 11:57:56,015 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-29 11:57:56,015 INFO serviceName: DEFAULT_GROUP@@userservice@@guizhou changed, schedule push for: 2.0.0.1:62993, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62993,164281068971000
+
+2022-10-29 11:57:56,015 INFO serviceName: DEFAULT_GROUP@@bookservice@@chongqing changed, schedule push for: 2.0.0.1:62079, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62079,164281068994600
+
+2022-10-29 11:57:56,015 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 11:57:56,015 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-29 11:57:56,015 INFO send udp packet: 2.0.0.1,62993,164281068971000
+
+2022-10-29 11:57:56,015 INFO serviceName: DEFAULT_GROUP@@userservice@@chongqing changed, schedule push for: 2.0.0.1:53335, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53335,164281069345500
+
+2022-10-29 11:57:56,015 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:63002, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63002,164281069377000
+
+2022-10-29 11:57:56,016 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 11:57:56,016 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-29 11:57:56,016 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:63002, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63002,164281069841600
+
+2022-10-29 11:57:56,016 INFO serviceName: DEFAULT_GROUP@@bookservice@@guizhou changed, schedule push for: 2.0.0.1:62088, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62088,164281069868300
+
+2022-10-29 11:57:56,016 ERROR [PUSH-FAIL] 1ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=4}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:57:56,018 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:57:56,019 INFO send udp packet: 2.0.0.1,62079,164281068994600
+
+2022-10-29 11:57:56,019 ERROR [PUSH-FAIL] 4ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=4}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:57:56,020 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:57:56,020 INFO send udp packet: 2.0.0.1,53335,164281069345500
+
+2022-10-29 11:57:56,020 ERROR [PUSH-FAIL] 5ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=4}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:57:56,020 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:57:56,020 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=4}
+
+2022-10-29 11:57:56,020 INFO send udp packet: 2.0.0.1,63002,164281069377000
+
+2022-10-29 11:57:56,020 ERROR [PUSH-FAIL] 5ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=4}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:57:56,020 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:57:56,020 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=4}
+
+2022-10-29 11:57:56,021 INFO send udp packet: 2.0.0.1,63002,164281069841600
+
+2022-10-29 11:57:56,024 ERROR [PUSH-FAIL] 9ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=4}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:57:56,024 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:57:56,024 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=4}
+
+2022-10-29 11:57:56,024 INFO send udp packet: 2.0.0.1,62088,164281069868300
+
+2022-10-29 11:57:56,026 ERROR [PUSH-FAIL] 10ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=4}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:57:56,026 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:57:56,026 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=4}
+
+2022-10-29 11:57:56,145 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=5}
+
+2022-10-29 11:57:57,988 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 11:57:57,988 INFO serviceName: DEFAULT_GROUP@@userservice@@chongqing changed, schedule push for: 2.0.0.1:53335, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53335,164283042223600
+
+2022-10-29 11:57:57,988 INFO send udp packet: 2.0.0.1,53335,164283042223600
+
+2022-10-29 11:57:57,989 ERROR [PUSH-FAIL] 1ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=5}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:57:57,989 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:57:58,086 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}
+
+2022-10-29 11:57:58,538 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 11:57:58,538 INFO serviceName: DEFAULT_GROUP@@userservice@@chongqing changed, schedule push for: 2.0.0.1:53335, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53335,164283592166500
+
+2022-10-29 11:57:58,538 INFO send udp packet: 2.0.0.1,53335,164283592166500
+
+2022-10-29 11:57:58,539 ERROR [PUSH-FAIL] 1ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:57:58,539 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:57:59,544 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 11:57:59,545 INFO serviceName: DEFAULT_GROUP@@userservice@@chongqing changed, schedule push for: 2.0.0.1:53335, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53335,164284598040900
+
+2022-10-29 11:57:59,546 INFO send udp packet: 2.0.0.1,53335,164284598040900
+
+2022-10-29 11:57:59,546 ERROR [PUSH-FAIL] 2ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:57:59,547 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:58:00,246 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=6}
+
+2022-10-29 11:58:00,260 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}
+
+2022-10-29 11:58:00,336 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 11:58:00,336 INFO serviceName: DEFAULT_GROUP@@userservice@@chongqing changed, schedule push for: 2.0.0.1:53335, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53335,164285389573200
+
+2022-10-29 11:58:00,336 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 11:58:00,336 INFO send udp packet: 2.0.0.1,53335,164285389573200
+
+2022-10-29 11:58:00,337 ERROR [PUSH-FAIL] 1ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:58:00,337 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:58:00,337 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:63002, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63002,164285389802600
+
+2022-10-29 11:58:00,337 INFO send udp packet: 2.0.0.1,63002,164285389802600
+
+2022-10-29 11:58:00,340 ERROR [PUSH-FAIL] 4ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:58:00,340 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:58:00,340 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}
+
+2022-10-29 11:58:00,445 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-29 11:58:00,445 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:63002, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63002,164285498529600
+
+2022-10-29 11:58:00,445 INFO send udp packet: 2.0.0.1,63002,164285498529600
+
+2022-10-29 11:58:00,446 ERROR [PUSH-FAIL] 1ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=6}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:58:00,446 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:58:00,525 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}
+
+2022-10-29 11:58:00,767 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=6}
+
+2022-10-29 11:58:00,784 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-29 11:58:00,785 INFO serviceName: DEFAULT_GROUP@@borrowservice@@guizhou changed, schedule push for: 2.0.0.1:63002, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63002,164285838022000
+
+2022-10-29 11:58:00,785 INFO send udp packet: 2.0.0.1,63002,164285838022000
+
+2022-10-29 11:58:00,788 ERROR [PUSH-FAIL] 4ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=2}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:58:00,788 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:58:00,886 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 11:58:00,886 INFO serviceName: DEFAULT_GROUP@@userservice@@guizhou changed, schedule push for: 2.0.0.1:62993, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62993,164285939650100
+
+2022-10-29 11:58:00,886 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 11:58:00,886 INFO send udp packet: 2.0.0.1,62993,164285939650100
+
+2022-10-29 11:58:00,887 INFO serviceName: DEFAULT_GROUP@@userservice@@chongqing changed, schedule push for: 2.0.0.1:53335, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53335,164285939919700
+
+2022-10-29 11:58:00,887 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 11:58:00,887 ERROR [PUSH-FAIL] 1ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:58:00,887 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:58:00,887 INFO send udp packet: 2.0.0.1,53335,164285939919700
+
+2022-10-29 11:58:00,887 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:63002, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63002,164285940379900
+
+2022-10-29 11:58:00,887 ERROR [PUSH-FAIL] 1ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:58:00,887 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:58:00,887 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}
+
+2022-10-29 11:58:00,887 INFO send udp packet: 2.0.0.1,63002,164285940379900
+
+2022-10-29 11:58:00,888 ERROR [PUSH-FAIL] 1ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:58:00,888 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:58:00,888 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}
+
+2022-10-29 11:58:00,996 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-29 11:58:00,996 INFO serviceName: DEFAULT_GROUP@@bookservice@@chongqing changed, schedule push for: 2.0.0.1:62079, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62079,164286049814900
+
+2022-10-29 11:58:00,996 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-29 11:58:00,997 INFO send udp packet: 2.0.0.1,62079,164286049814900
+
+2022-10-29 11:58:00,997 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:63002, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63002,164286050148800
+
+2022-10-29 11:58:00,997 ERROR [PUSH-FAIL] 1ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=6}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:58:00,997 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:58:00,997 INFO send udp packet: 2.0.0.1,63002,164286050148800
+
+2022-10-29 11:58:00,997 ERROR [PUSH-FAIL] 1ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=6}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:58:00,998 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:58:00,998 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=6}
+
+2022-10-29 11:58:01,877 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-29 11:58:01,877 INFO serviceName: DEFAULT_GROUP@@borrowservice@@guizhou changed, schedule push for: 2.0.0.1:63002, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63002,164286931129700
+
+2022-10-29 11:58:01,877 INFO send udp packet: 2.0.0.1,63002,164286931129700
+
+2022-10-29 11:58:01,877 ERROR [PUSH-FAIL] 0ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=2}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:58:01,878 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:58:01,989 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 11:58:01,989 INFO serviceName: DEFAULT_GROUP@@userservice@@chongqing changed, schedule push for: 2.0.0.1:53335, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53335,164287043087900
+
+2022-10-29 11:58:01,989 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 11:58:01,989 INFO send udp packet: 2.0.0.1,53335,164287043087900
+
+2022-10-29 11:58:01,990 ERROR [PUSH-FAIL] 1ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:58:01,989 INFO serviceName: DEFAULT_GROUP@@userservice@@guizhou changed, schedule push for: 2.0.0.1:62993, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62993,164287043327700
+
+2022-10-29 11:58:01,990 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 11:58:01,990 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:58:01,990 INFO send udp packet: 2.0.0.1,62993,164287043327700
+
+2022-10-29 11:58:01,990 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:63002, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63002,164287043885500
+
+2022-10-29 11:58:01,990 ERROR [PUSH-FAIL] 1ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:58:01,990 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:58:01,990 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}
+
+2022-10-29 11:58:01,990 INFO send udp packet: 2.0.0.1,63002,164287043885500
+
+2022-10-29 11:58:01,990 ERROR [PUSH-FAIL] 0ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:58:01,991 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:58:01,991 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}
+
+2022-10-29 11:58:02,101 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-29 11:58:02,101 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:63002, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63002,164287155113700
+
+2022-10-29 11:58:02,101 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-29 11:58:02,101 INFO send udp packet: 2.0.0.1,63002,164287155113700
+
+2022-10-29 11:58:02,101 INFO serviceName: DEFAULT_GROUP@@bookservice@@chongqing changed, schedule push for: 2.0.0.1:62079, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62079,164287155500000
+
+2022-10-29 11:58:02,102 ERROR [PUSH-FAIL] 1ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=6}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:58:02,102 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:58:02,102 INFO send udp packet: 2.0.0.1,62079,164287155500000
+
+2022-10-29 11:58:02,102 ERROR [PUSH-FAIL] 1ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=6}, reason=Network is unreachable: Datagram send failed, target=2.0.0.1
+
+2022-10-29 11:58:02,102 ERROR Reason detail: 
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.doSend(UdpConnector.java:104)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector.access$300(UdpConnector.java:45)
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpAsyncSender.run(UdpConnector.java:140)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-29 11:58:02,102 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=6}
+
+2022-10-29 11:58:02,908 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-29 11:58:02,908 INFO serviceName: DEFAULT_GROUP@@borrowservice@@guizhou changed, schedule push for: 2.0.0.1:63002, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63002,164287962124600
+
+2022-10-29 11:58:02,908 INFO send udp packet: 2.0.0.1,63002,164287962124600
+
+2022-10-29 11:58:02,909 INFO [PUSH-SUCC] 1ms, all delay time 1031ms for subscriber 2.0.0.1, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=2}, originalSize=1, DataSize=1
+
+2022-10-29 11:58:03,018 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 11:58:03,018 INFO serviceName: DEFAULT_GROUP@@userservice@@guizhou changed, schedule push for: 2.0.0.1:62993, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62993,164288072203900
+
+2022-10-29 11:58:03,018 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 11:58:03,018 INFO send udp packet: 2.0.0.1,62993,164288072203900
+
+2022-10-29 11:58:03,018 INFO serviceName: DEFAULT_GROUP@@userservice@@chongqing changed, schedule push for: 2.0.0.1:53335, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53335,164288072428900
+
+2022-10-29 11:58:03,019 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 11:58:03,019 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:63002, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63002,164288072830600
+
+2022-10-29 11:58:03,019 INFO send udp packet: 2.0.0.1,53335,164288072428900
+
+2022-10-29 11:58:03,019 INFO send udp packet: 2.0.0.1,63002,164288072830600
+
+2022-10-29 11:58:03,020 INFO [PUSH-SUCC] 2ms, all delay time 1030ms for subscriber 2.0.0.1, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}, originalSize=2, DataSize=1
+
+2022-10-29 11:58:03,020 INFO [PUSH-SUCC] 2ms, all delay time 1030ms for subscriber 2.0.0.1, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}, originalSize=2, DataSize=1
+
+2022-10-29 11:58:03,020 INFO [PUSH-SUCC] 1ms, all delay time 1030ms for subscriber 2.0.0.1, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}, originalSize=2, DataSize=2
+
+2022-10-29 11:58:03,127 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-29 11:58:03,127 INFO serviceName: DEFAULT_GROUP@@bookservice@@chongqing changed, schedule push for: 2.0.0.1:62079, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62079,164288181198800
+
+2022-10-29 11:58:03,127 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-29 11:58:03,127 INFO send udp packet: 2.0.0.1,62079,164288181198800
+
+2022-10-29 11:58:03,128 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:63002, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63002,164288181433300
+
+2022-10-29 11:58:03,128 INFO send udp packet: 2.0.0.1,63002,164288181433300
+
+2022-10-29 11:58:03,129 INFO [PUSH-SUCC] 2ms, all delay time 1027ms for subscriber 2.0.0.1, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=6}, originalSize=2, DataSize=1
+
+2022-10-29 11:58:03,131 INFO [PUSH-SUCC] 4ms, all delay time 1029ms for subscriber 2.0.0.1, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=6}, originalSize=2, DataSize=2
+
+2022-10-29 11:58:04,115 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-29 11:58:04,115 INFO serviceName: DEFAULT_GROUP@@bookservice@@guizhou changed, schedule push for: 2.0.0.1:62088, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62088,164289169238900
+
+2022-10-29 11:58:04,115 INFO send udp packet: 2.0.0.1,62088,164289169238900
+
+2022-10-29 11:58:04,119 INFO [PUSH-SUCC] 4ms, all delay time 599ms for subscriber 2.0.0.1, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=6}, originalSize=2, DataSize=1
+
+2022-10-29 13:15:39,621 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-29 13:15:39,623 INFO serviceName: DEFAULT_GROUP@@borrowservice@@guizhou changed, schedule push for: 2.0.0.1:63002, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63002,168944675274700
+
+2022-10-29 13:15:39,623 INFO send udp packet: 2.0.0.1,63002,168944675274700
+
+2022-10-29 13:15:47,822 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=4}
+
+2022-10-29 13:15:48,299 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-29 13:15:48,299 INFO serviceName: DEFAULT_GROUP@@borrowservice@@guizhou changed, schedule push for: 2.0.0.1:63360, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63360,168953353102000
+
+2022-10-29 13:15:48,299 INFO send udp packet: 2.0.0.1,63360,168953353102000
+
+2022-10-29 13:15:48,299 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-29 13:15:48,299 INFO serviceName: DEFAULT_GROUP@@borrowservice@@guizhou changed, schedule push for: 2.0.0.1:63002, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63002,168953353489800
+
+2022-10-29 13:15:48,300 INFO send udp packet: 2.0.0.1,63002,168953353489800
+
+2022-10-29 13:15:48,304 INFO [PUSH-SUCC] 5ms, all delay time 525ms, SLA 482ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=4}, originalSize=1, DataSize=1, target=2.0.0.1
+
+2022-10-29 13:15:49,624 INFO retry to push data, key: 2.0.0.1,63002,168944675274700
+
+2022-10-29 13:15:58,301 INFO retry to push data, key: 2.0.0.1,63002,168953353489800
+
+2022-10-29 13:15:59,629 WARN max re-push times reached, retry times 2, key: 2.0.0.1,63002,168944675274700
+
+2022-10-29 13:15:59,629 ERROR [PUSH-FAIL] 20008ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=4}, reason=null, target=2.0.0.1
+
+2022-10-29 13:16:08,316 WARN max re-push times reached, retry times 2, key: 2.0.0.1,63002,168953353489800
+
+2022-10-29 13:16:08,316 ERROR [PUSH-FAIL] 20017ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=4}, reason=null, target=2.0.0.1
+
+2022-10-29 13:17:00,924 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 13:17:00,924 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-29 13:17:00,924 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:63360, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63360,169025978204800
+
+2022-10-29 13:17:00,924 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:63360, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63360,169025978232000
+
+2022-10-29 13:17:00,924 INFO send udp packet: 2.0.0.1,63360,169025978204800
+
+2022-10-29 13:17:00,925 INFO send udp packet: 2.0.0.1,63360,169025978232000
+
+2022-10-29 13:17:00,928 INFO [PUSH-SUCC] 4ms, all delay time 593ms for subscriber 2.0.0.1, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=6}, originalSize=2, DataSize=2
+
+2022-10-29 13:17:00,928 INFO [PUSH-SUCC] 4ms, all delay time 549ms for subscriber 2.0.0.1, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=6}, originalSize=2, DataSize=2
+
+2022-10-29 13:40:14,964 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=8}
+
+2022-10-29 13:40:15,019 INFO [PUSH] Task merge for Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=8}
+
+2022-10-29 13:40:15,446 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-29 13:40:15,447 INFO serviceName: DEFAULT_GROUP@@bookservice@@chongqing changed, schedule push for: 2.0.0.1:62079, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62079,170420499906100
+
+2022-10-29 13:40:15,447 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-29 13:40:15,447 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 2.0.0.1:63360, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63360,170420500685100
+
+2022-10-29 13:40:15,447 INFO send udp packet: 2.0.0.1,62079,170420499906100
+
+2022-10-29 13:40:15,447 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-10-29 13:40:15,447 INFO serviceName: DEFAULT_GROUP@@bookservice@@guizhou changed, schedule push for: 2.0.0.1:62088, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62088,170420500857200
+
+2022-10-29 13:40:15,448 INFO send udp packet: 2.0.0.1,63360,170420500685100
+
+2022-10-29 13:40:15,448 INFO send udp packet: 2.0.0.1,62088,170420500857200
+
+2022-10-29 13:40:15,461 INFO [PUSH-SUCC] 14ms, all delay time 519ms, SLA 497ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=8}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-29 13:40:15,464 INFO [PUSH-SUCC] 17ms, all delay time 522ms, SLA 500ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=8}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-29 13:40:15,464 INFO [PUSH-SUCC] 18ms, all delay time 522ms, SLA 500ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='bookservice', ephemeral=true, revision=8}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-29 13:40:15,556 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 13:40:15,556 INFO serviceName: DEFAULT_GROUP@@userservice@@guizhou changed, schedule push for: 2.0.0.1:62993, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,62993,170420609684300
+
+2022-10-29 13:40:15,556 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 13:40:15,556 INFO send udp packet: 2.0.0.1,62993,170420609684300
+
+2022-10-29 13:40:15,556 INFO serviceName: DEFAULT_GROUP@@userservice changed, schedule push for: 2.0.0.1:63360, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63360,170420610009800
+
+2022-10-29 13:40:15,556 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-10-29 13:40:15,556 INFO serviceName: DEFAULT_GROUP@@userservice@@chongqing changed, schedule push for: 2.0.0.1:53335, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,53335,170420610149200
+
+2022-10-29 13:40:15,556 INFO send udp packet: 2.0.0.1,63360,170420610009800
+
+2022-10-29 13:40:15,556 INFO send udp packet: 2.0.0.1,53335,170420610149200
+
+2022-10-29 13:40:15,560 INFO [PUSH-SUCC] 4ms, all delay time 567ms, SLA 541ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=8}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-29 13:40:15,560 INFO [PUSH-SUCC] 4ms, all delay time 567ms, SLA 541ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=8}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-29 13:40:15,560 INFO [PUSH-SUCC] 4ms, all delay time 567ms, SLA 541ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=8}, originalSize=0, DataSize=0, target=2.0.0.1
+
+2022-10-29 13:40:20,161 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-10-29 13:40:20,162 INFO serviceName: DEFAULT_GROUP@@borrowservice@@guizhou changed, schedule push for: 2.0.0.1:63360, agent: Nacos-Java-Client:v1.4.2, key: 2.0.0.1,63360,170425214882100
+
+2022-10-29 13:40:20,162 INFO send udp packet: 2.0.0.1,63360,170425214882100
+
+2022-10-29 13:40:20,164 INFO [PUSH-SUCC] 3ms, all delay time 585ms, SLA 585ms, Service{namespace='9184d579-2274-4e20-8b01-e5834af2425a', group='DEFAULT_GROUP', name='borrowservice', ephemeral=false, revision=5}, originalSize=1, DataSize=1, target=2.0.0.1
+

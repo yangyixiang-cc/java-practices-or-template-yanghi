@@ -1,0 +1,44 @@
+2022-10-29 11:08:58,332 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8082@guizhou in 1, msg: tcp:ok+
+
+2022-10-29 11:09:03,345 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8082@guizhou in 2, msg: tcp:ok+
+
+2022-10-29 11:09:07,750 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.56.1:8082@guizhou, region: unknown, msg: tcp:ok+
+
+2022-10-29 11:57:55,515 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8301@guizhou@bookservice, region: unknown, msg: client last beat: 1667014642102
+
+2022-10-29 11:57:55,515 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8302@chongqing@bookservice, region: unknown, msg: client last beat: 1667014639498
+
+2022-10-29 11:57:55,515 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8202@chongqing@userservice, region: unknown, msg: client last beat: 1667014640263
+
+2022-10-29 11:57:55,515 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8201@guizhou@userservice, region: unknown, msg: client last beat: 1667014638317
+
+2022-10-29 13:15:33,947 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8082@guizhou in 1, msg: tcp:timeout
+
+2022-10-29 13:15:33,947 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8082@guizhou in 1, msg: tcp:timeout
+
+2022-10-29 13:15:35,518 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8082@guizhou in 2, msg: tcp:timeout
+
+2022-10-29 13:15:35,518 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8082@guizhou in 2, msg: tcp:timeout
+
+2022-10-29 13:15:39,051 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.56.1:8082@guizhou, region: unknown, msg: tcp:timeout
+
+2022-10-29 13:15:39,051 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.56.1:8082@guizhou, region: unknown, msg: tcp:timeout
+
+2022-10-29 13:15:48,539 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8082@guizhou in 1, msg: tcp:ok+
+
+2022-10-29 13:15:53,545 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8082@guizhou in 2, msg: tcp:ok+
+
+2022-10-29 13:15:57,946 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.56.1:8082@guizhou, region: unknown, msg: tcp:ok+
+
+2022-10-29 13:40:15,136 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8082@guizhou in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
+
+2022-10-29 13:40:16,433 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8082@guizhou in 2, msg: tcp:timeout
+
+2022-10-29 13:40:16,433 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8082@guizhou in 1, msg: tcp:timeout
+
+2022-10-29 13:40:19,566 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8082@guizhou in 2, msg: tcp:timeout
+
+2022-10-29 13:40:19,579 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.56.1:8082@guizhou, region: unknown, msg: tcp:timeout
+
+2022-10-29 13:40:24,600 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.56.1:8082@guizhou, region: unknown, msg: tcp:timeout
+
