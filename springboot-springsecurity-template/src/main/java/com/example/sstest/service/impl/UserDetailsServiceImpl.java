@@ -12,8 +12,6 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
@@ -26,8 +24,6 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     @Autowired
     private MenuMapper menuMapper;
 
-    @Autowired
-    private UserMapper userMapper;
 
     @SneakyThrows
     @Override
@@ -39,6 +35,6 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         }
         //获取权限认证信息
         List<String> auths = menuMapper.selectPermsByUserId(userOneByUsername.getId());
-        return new LoginUser(userOneByUsername, auths, userRolesById);
+        return new LoginUser(userOneByUsername, auths);
     }
 }
